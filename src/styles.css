@@ -1,0 +1,10 @@
+@import '@onrewind/ui/lib/onrewind-ui.css';
+
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+
+:root {
+  --secondary: #0062bf;
+}

@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "es6",
+    "jsx": "preserve",
+    "lib": ["dom", "esnext", "DOM.Iterable"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "useUnknownInCatchVariables": false,
+    "noEmit": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "$components/*": ["src/components/*"],
+      "$hooks/*": ["src/hooks/*"],
+      "$types/*": ["src/types/*"],
+      "$utils/*": ["src/utils/*"],
+      "$contexts/*": ["src/contexts/*"]
+    },
+    "removeComments": true,
+    "importHelpers": true,
+    "incremental": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}

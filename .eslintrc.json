@@ -1,0 +1,3 @@
+{
+  "extends": ["@onrewind/eslint-config/frontend"]
+}
