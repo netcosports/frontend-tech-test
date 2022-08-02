@@ -21,7 +21,7 @@ This technical test is a basic representation of our work in the frontend team.
 
 ## Workflow
 Your commits will respect the standard of [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/). If you are not sure how to write them, you can use `yarn commit` instead of `git commit`.
-As long as your commits respect this, you do not need to create a branch for every feature.
+As long as your commits respect this, you do not need to create a branch for every feature (but it is better if you do !).
 
 In the end, you create a PR here on `master` branch, there will be a Github Action that will run ESLint and try to build your project. This Action have to pass.
 
