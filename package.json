@@ -26,6 +26,7 @@
     "react": "17",
     "react-dom": "17",
     "react-query": "^3.39.1",
+    "swiper": "^8.3.2",
     "tailwind-merge": "^1.2.1"
   },
   "devDependencies": {
@@ -64,6 +65,9 @@
   },
   "lint-staged": {
     "package.json": "sort-package-json",
-    "**/*.{js,ts,tsx}": ["prettier --write", "eslint --cache --fix"]
+    "**/*.{js,ts,tsx}": [
+      "prettier --write",
+      "eslint --cache --fix"
+    ]
   }
 }

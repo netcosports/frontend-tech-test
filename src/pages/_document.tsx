@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
+import clsx from 'clsx';
 import Document, { DocumentContext, Head, Html, Main, NextScript } from 'next/document';
 
 import { DEFAULT_LANGUAGE, DEFAULT_LOCALE } from '$utils/constants';
