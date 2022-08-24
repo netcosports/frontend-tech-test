@@ -3,17 +3,16 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-function Header({ headerData }: any): JSX.Element {
+function Header({ dataHeader }: any): JSX.Element {
   const [toggleNav, setToggleNav] = useState(true);
 
   const handleClick = () => {
     setToggleNav(!toggleNav);
   };
 
-  const { favicon, fixed, liveEvents, logo, menuItems } = headerData;
-  console.log(headerData);
+  const { favicon, fixed, liveEvents, logo, menuItems } = dataHeader;
   return (
-    <div className="header">
+    <header>
       <div className="logo">
         <img src={logo.url} width={235} height={100} />
       </div>
@@ -43,7 +42,7 @@ function Header({ headerData }: any): JSX.Element {
           ))}
         </ul>
       </nav>
-    </div>
+    </header>
   );
 }
 
