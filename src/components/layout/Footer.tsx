@@ -1,6 +1,8 @@
 import React from 'react';
 
-function Footer() {
+function Footer({footerData}) {
+  console.log(footerData);
+  
   return <></>;
 }
 
