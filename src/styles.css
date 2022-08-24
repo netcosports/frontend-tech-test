@@ -7,4 +7,122 @@
 
 :root {
   --secondary: #0062bf;
+  --fg-color: rgba(255, 255, 255, 0.9);
+  --bg-color: #2b2b2b;
+  --highlight-primary: #008aff;
+  --gradient: linear-gradient(300deg, #ba4aff, rgba(186, 74, 255, 0) 70%),
+
+  --nav-height: 150px;
+
+  --transition: 250ms ease-out;
+  --transition-long: 500ms ease-out;
+}
+
+.logo {
+  display: grid;
+  place-content: center;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--nav-height);
+  font-size: 1.5rem;
+
+  background: var(--bg-color);
+  color: var(--fg-color);
+
+  box-shadow: -2px 2px 8px 0px rgb(0 0 0 / 80%);
+
+  border-bottom: 1px solid var(--highlight-primary);
+
+  z-index: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header ul {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  grid-template-rows: 1fr;
+  gap: 0.5rem;
+  padding: 0rem 1.5rem;
+  list-style-type: none;
+}
+
+.header ul > li {
+  display: grid;
+  padding: 0.5rem;
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+
+  padding: 0rem 1.5rem;
+  border-radius: 0.25rem;
+
+  color: var(--fg-color);
+
+  text-decoration: none;
+
+  transition: background-color var(--transition);
+}
+
+.header a:hover {
+  background-color: var(--highlight-primary);
+}
+
+.toggle-phone-nav {
+  display: none;
+}
+
+.phone-nav {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+  .toggle-phone-nav {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-color: var(--secondary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .phone-nav {
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    height: 30%;
+    right: 16%;
+    background-color: var(--bg-color);
+    transition: bottom 0.5s ease-in-out;
+  }
+
+  .phone-nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .hidden-phone-nav {
+    bottom: -50%;
+  }
 }

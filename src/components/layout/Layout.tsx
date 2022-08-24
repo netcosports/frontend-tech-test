@@ -8,7 +8,6 @@ import { useQuery } from 'react-query';
 import Cms from '../../services/Cms';
 
 function Layout({ children }: { children: React.ReactNode }): JSX.Element {
-  console.log();
   
   const data = children.props.webConfig 
 
