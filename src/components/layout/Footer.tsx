@@ -5,8 +5,6 @@ import Link from 'next/link';
 function Footer({ dataFooter }: any) {
   const { copyright, legalLinks, logo, menuItems, socialItems } = dataFooter;
 
-  console.log(dataFooter);
-
   return (
     <footer>
       <div className="footer-links-nav">

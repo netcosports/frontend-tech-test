@@ -26,15 +26,12 @@ function Header({ dataHeader }: any): JSX.Element {
         </ul>
       </nav>
 
-      <div
-        className={'toggle-phone-nav'}
-        onClick={() => handleClick()}
-      >
+      <div className='toggle-phone-nav' onClick={() => handleClick()}>
         <Image src="/brg_menu.png" alt="burger menu" height={40} width={40} />
       </div>
 
-      <nav className={"phone-nav " + (toggleNav ? 'hidden-phone-nav' : '')}>
-      <ul>
+      <nav className={'phone-nav ' + (toggleNav ? 'hidden-phone-nav' : '')}>
+        <ul>
           {menuItems.map((e) => (
             <li key={e._kenticoId}>
               <Link href={e.redirectionTarget}>{e.name}</Link>
