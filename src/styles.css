@@ -14,8 +14,7 @@ html {
   --fg-color: rgba(255, 255, 255, 0.9);
   --bg-color: #2b2b2b;
   --highlight-primary: #008aff;
-  --gradient: linear-gradient(300deg, #ba4aff, rgba(186, 74, 255, 0) 70%),
-
+  --gradient: linear-gradient(300deg, #ba4aff, rgba(186, 74, 255, 0) 70%);
   --transition: 250ms ease-out;
   --transition-long: 500ms ease-out;
 }
@@ -25,9 +24,8 @@ html {
   place-content: center;
 }
 
-
-
-header, footer {
+header,
+footer {
   height: 100px;
 
   background: var(--bg-color);
@@ -35,7 +33,6 @@ header, footer {
 
   z-index: 1;
   display: flex;
-
 }
 
 header {
@@ -53,6 +50,7 @@ header {
 
   border-bottom: 1px solid var(--highlight-primary);
   transition: top 0.3s ease-in-out;
+  z-index: 9999999;
 }
 
 .hidden-nav-bar {
@@ -109,10 +107,10 @@ header a:hover {
 .arrow-container {
   position: absolute;
   width: 99vw;
-  
+
   top: calc(50vh - 100px);
   z-index: 100;
-  
+
   font-size: 100px;
 
   display: flex;
@@ -121,7 +119,6 @@ header a:hover {
 
 .arrow {
   cursor: pointer;
-
 }
 
 #left-arrow {
@@ -142,7 +139,7 @@ header a:hover {
   top: 70%;
   width: 100%;
   text-align: center;
-  z-index: 1000;
+  z-index: 100;
   color: var(--fg-color);
   font-size: 60px;
 }
@@ -162,7 +159,7 @@ header a:hover {
   width: 100vw;
 
   z-index: 100;
-  
+
   position: absolute;
   top: calc(100vh - 60px);
 
@@ -188,6 +185,150 @@ header a:hover {
 
 /* ------------- SLIDER COMPONENT END ------------- */
 
+/* ################################################ */
+
+/* ------------- CAROUSEL COMPONENT BEGIN --------- */
+
+.carousel-container {
+  background-color: #2b2b2b;
+
+  position: relative;
+
+  height: 50vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 400px;
+}
+
+.carousel-arrow {
+  position: absolute;
+  cursor: pointer;
+  z-index: 101;
+}
+
+#carousel-left-arrow {
+  width: 50px;
+  height: 50px;
+}
+
+#carousel-right-arrow {
+  width: 50px;
+  height: 50px;
+  transform: rotate(180deg);
+  right: 0;
+}
+
+.carousel-items-container {
+  position: relative;
+  margin: 0px 2.5%;
+  width: 95%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-item {
+  position: absolute;
+
+  width: 100%;
+
+  display: flex;
+
+  left: 0;
+
+  filter: brightness(1);
+
+  transition: left 0.5s ease-in-out, filter 0.8s ease-in-out;
+  z-index: 2;
+}
+
+.right {
+  left: calc(3 * 30vw + 3 * 10px);
+  filter: brightness(0.3);
+  z-index: 1;
+}
+
+.left {
+  left: -100vw;
+  filter: brightness(0.3);
+}
+
+.far {
+  left: 3000px;
+}
+
+.img-and-infos-container {
+  position: relative;
+  min-height: 30vh;
+  max-height: 30vh;
+  min-width: 30vw;
+  max-width: 30vw;
+  filter: brightness(1);
+  transition: transform 0.3s;
+  margin-right: 10px;
+}
+
+.img-and-infos-container:hover {
+  transform: scale(1.15);
+  z-index: 5;
+}
+
+.img-and-infos-container:hover p {
+  z-index: 4;
+}
+
+.img-and-infos-container:hover img {
+  filter: brightness(0.3);
+  z-index: 3;
+}
+
+.name-img-carousel {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 30px;
+  color: var(--fg-color);
+}
+
+.link-img-carousel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: var(--fg-color);
+  text-transform: uppercase;
+
+  padding: 20px;
+  background-color: var(--highlight-primary);
+
+  border: 3px solid var(--bg-color);
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.img-and-infos-container img {
+  position: absolute;
+  min-height: 30vh;
+  max-height: 30vh;
+  min-width: 30vw;
+  max-width: 30vw;
+  top: 0;
+  object-fit: cover;
+  transition: filter 0.3s;
+  z-index: 99;
+}
+
+/* ------------- CAROUSEL COMPONENT END --------- */
+
+/* ############################################## */
+
 footer {
   box-shadow: 0px 0px 8px 0px rgb(0 0 0 / 80%);
   border-top: 1px solid var(--highlight-primary);
@@ -212,7 +353,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-
   .toggle-phone-nav {
     position: fixed;
     bottom: 70px;
@@ -251,7 +391,7 @@ footer {
     bottom: -50%;
   }
 
-/* ------------- SLIDER COMPONENT BEGIN ------------- */
+  /* ------------- SLIDER COMPONENT BEGIN ------------- */
 
   /* .slider-container {
     margin-top: 100px;
@@ -271,7 +411,7 @@ footer {
     width: 50px;
     height: 50px;
   }
-  
+
   #right-arrow {
     margin-right: 10px;
     width: 50px;
@@ -298,7 +438,9 @@ footer {
     width: 20px;
   }
 
-/* ------------- SLIDER COMPONENT END ------------- */
+  /* ------------- SLIDER COMPONENT END ------------- */
+
+  /* ################################################ */
 
   footer {
     height: 60px;
@@ -312,7 +454,6 @@ footer {
     width: 100%;
   }
 }
-
 
 /* header {
   display: none;

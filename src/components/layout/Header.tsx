@@ -22,9 +22,6 @@ function Header({ dataHeader }: any): JSX.Element {
     const isShow = currPos.y > prevPos.y
     if (isShow !== showOnScroll) setShowOnScroll(isShow)
   }, [showOnScroll], false, false, 200)
-  
-  console.log("RENDERING");
-  
 
   return (
     <header className={showOnScroll ? "hidden-nav-bar" : ""}>
