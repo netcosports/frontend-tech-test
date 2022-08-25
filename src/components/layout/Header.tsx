@@ -1,18 +1,33 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import Image from 'next/image';
 import Link from 'next/link';
 
-function Header({ dataHeader }: any): JSX.Element {
-  const [toggleNav, setToggleNav] = useState(true);
+import {useScrollPosition} from "$utils/useScrollPosition"
 
+function Header({ dataHeader }: any): JSX.Element {
+  // PROPS
+  const { favicon, fixed, liveEvents, logo, menuItems } = dataHeader;
+
+  // STATE
+  const [toggleNav, setToggleNav] = useState(true);
+  const [showOnScroll, setShowOnScroll] = useState(true)
+
+  // METHODS
   const handleClick = () => {
     setToggleNav(!toggleNav);
   };
 
-  const { favicon, fixed, liveEvents, logo, menuItems } = dataHeader;
+  useScrollPosition(({ prevPos, currPos }) => {
+    const isShow = currPos.y > prevPos.y
+    if (isShow !== showOnScroll) setShowOnScroll(isShow)
+  }, [showOnScroll], false, false, 200)
+  
+  console.log("RENDERING");
+  
+
   return (
-    <header>
+    <header className={showOnScroll ? "hidden-nav-bar" : ""}>
       <div className="logo">
         <img src={logo.url} width={235} height={100} />
       </div>
@@ -26,7 +41,7 @@ function Header({ dataHeader }: any): JSX.Element {
         </ul>
       </nav>
 
-      <div className='toggle-phone-nav' onClick={() => handleClick()}>
+      <div className="toggle-phone-nav" onClick={() => handleClick()}>
         <Image src="/brg_menu.png" alt="burger menu" height={40} width={40} />
       </div>
 
