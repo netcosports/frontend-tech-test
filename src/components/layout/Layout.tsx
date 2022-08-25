@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Footer from './Footer';
 import Header from './Header';
 import Slider from './Slider';
+import Carousel from './Carousel';
 
 import { useQuery } from 'react-query';
 
@@ -17,8 +18,11 @@ function Layout({ children }: { children: React.ReactNode }): JSX.Element {
     return data.find((dataComponent) => dataComponent._kenticoItemType === key);
   };
 
-  // Set The Data for the slider component
+  // Set the data for the slider component
   const dataSlider = getDataComponent(dataPage.components, 'section_static_slider');
+
+  // Set the data for the carousel component
+  const dataCarousel = getDataComponent(dataPage.components, 'section_static_carousel');
 
   return (
     <>
@@ -26,6 +30,8 @@ function Layout({ children }: { children: React.ReactNode }): JSX.Element {
         <Header dataHeader={dataNav.header} />
         {/* SLIDER */}
         {dataSlider && <Slider dataSlider={dataSlider} />}
+        {/* CAROUSEL */}
+        {dataCarousel && <Carousel dataCarousel={dataCarousel} />}
 
         <main
           className={clsx('mx-auto flex w-full flex-grow flex-col content-spacer overflow-hidden')}
