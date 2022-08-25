@@ -31,19 +31,21 @@ function Slider({ dataSlider }: any): JSX.Element {
   return (
     <div className="slider-container">
       <div className="arrow-container">
-        <Image
+        <img
           onClick={() => changeSlideLeft()}
           src="/arrow_slider.png"
-          width={100}
-          height={100}
-          className="arrow left-arrow"
+        //   width={100}
+        //   height={100}
+          className="arrow"
+          id="left-arrow"
         />
-        <Image
+        <img
           onClick={() => changeSlideRight()}
           src="/arrow_slider.png"
-          width={100}
-          height={100}
-          className="arrow right-arrow"
+        //   width={100}
+        //   height={100}
+          className="arrow"
+          id="right-arrow"
         />
       </div>
       {items.map(
