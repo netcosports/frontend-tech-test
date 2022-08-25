@@ -43,24 +43,21 @@ function Slider({ dataSlider }: any): JSX.Element {
           id="right-arrow"
         />
       </div>
-      {items.map(
-        (item, index: number) =>
-          index === currentSlide && (
-            <div className="img-and-dot-container">
-              <p className="title-video">{item.name}</p>
-              <img key={item.itemId} src={item.poster} alt={item.name} />
-              <div className="dots-container">
-                {dots(items).map((e, i) => (
-                  <div
-                    key={item.itemId + i}
-                    onClick={() => changeSlideDot(i)}
-                    className={'dot ' + (i === index ? 'current-slide' : '')}
-                  ></div>
-                ))}
-              </div>
-            </div>
-          ),
-      )}
+      {items.map((item, index: number) => (
+        <div className={"img-and-dot-container " + (currentSlide === index ? "visible" : "")}>
+          <p className="title-video">{item.name}</p>
+          <img key={item.itemId} src={item.poster} alt={item.name} />
+          <div className="dots-container">
+            {dots(items).map((e, i) => (
+              <div
+                key={item.itemId + i}
+                onClick={() => changeSlideDot(i)}
+                className={'dot ' + (i === index ? 'current-slide' : '')}
+              ></div>
+            ))}
+          </div>
+        </div>
+      ))}
     </div>
   );
 }

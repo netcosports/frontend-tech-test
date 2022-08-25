@@ -101,7 +101,7 @@ header a:hover {
 /* ------------- SLIDER COMPONENT BEGIN ------------- */
 
 .slider-container {
-  position: relative;
+  height: 100vh;
 }
 
 .arrow-container {
@@ -151,7 +151,17 @@ header a:hover {
   object-fit: cover;
 }
 
+.img-and-dot-container {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.visible {
+  opacity: 1;
+}
+
 .img-and-dot-container img {
+  position: absolute;
   filter: brightness(0.2);
 }
 
@@ -392,10 +402,6 @@ footer {
   }
 
   /* ------------- SLIDER COMPONENT BEGIN ------------- */
-
-  /* .slider-container {
-    margin-top: 100px;
-  } */
 
   .slider-container img {
     height: 25vh;

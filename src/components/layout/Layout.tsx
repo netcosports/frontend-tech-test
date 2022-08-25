@@ -26,7 +26,7 @@ function Layout({ children }: { children: React.ReactNode }): JSX.Element {
 
   return (
     <>
-      <div className="flex min-h-screen w-full flex-col gap-10 overflow-hidden">
+      <div className="flex min-h-screen w-full flex-col overflow-hidden">
         <Header dataHeader={dataNav.header} />
         {/* SLIDER */}
         {dataSlider && <Slider dataSlider={dataSlider} />}
