@@ -12,13 +12,10 @@ function Slider({ dataSlider }: any): JSX.Element {
   };
 
   const changeSlideRight = () => {
-    console.log('RIGHT');
-
     currentSlide === items.length - 1 ? setCurrentSlide(0) : setCurrentSlide(currentSlide + 1);
   };
 
   const changeSlideLeft = () => {
-    console.log('lEFT');
     currentSlide === 0 ? setCurrentSlide(items.length - 1) : setCurrentSlide(currentSlide - 1);
   };
 
@@ -26,24 +23,22 @@ function Slider({ dataSlider }: any): JSX.Element {
     setCurrentSlide(index);
   };
 
-  console.log(items);
-
   return (
     <div className="slider-container">
       <div className="arrow-container">
         <img
           onClick={() => changeSlideLeft()}
           src="/arrow_slider.png"
-        //   width={100}
-        //   height={100}
+          //   width={100}
+          //   height={100}
           className="arrow"
           id="left-arrow"
         />
         <img
           onClick={() => changeSlideRight()}
           src="/arrow_slider.png"
-        //   width={100}
-        //   height={100}
+          //   width={100}
+          //   height={100}
           className="arrow"
           id="right-arrow"
         />
@@ -52,6 +47,7 @@ function Slider({ dataSlider }: any): JSX.Element {
         (item, index: number) =>
           index === currentSlide && (
             <div className="img-and-dot-container">
+              <p className="title-video">{item.name}</p>
               <img key={item.itemId} src={item.poster} alt={item.name} />
               <div className="dots-container">
                 {dots(items).map((e, i) => (
