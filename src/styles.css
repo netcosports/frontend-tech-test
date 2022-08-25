@@ -403,13 +403,16 @@ footer {
 
   /* ------------- SLIDER COMPONENT BEGIN ------------- */
 
+  .slider-container {
+    height: 25vh;
+  }
+
   .slider-container img {
     height: 25vh;
   }
 
   .arrow-container {
-    top: calc(50% - 25px);
-    /* top: 0 */
+    top: calc(12.5vh - 25px);
   }
 
   #left-arrow {
@@ -430,7 +433,7 @@ footer {
   }
 
   .dots-container {
-    top: calc(100% - 30px);
+    top: calc(25vh - 30px);
   }
 
   .dot {
