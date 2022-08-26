@@ -21,7 +21,7 @@ function Header({ dataHeader }: any): JSX.Element {
   useScrollPosition(({ prevPos, currPos }) => {
     const isShow = currPos.y > prevPos.y
     if (isShow !== showOnScroll) setShowOnScroll(isShow)
-  }, [showOnScroll], false, false, 200)
+  }, [showOnScroll], false, false, 50)
 
   return (
     <header className={showOnScroll ? "hidden-nav-bar" : ""}>
