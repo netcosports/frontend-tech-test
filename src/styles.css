@@ -375,6 +375,10 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    top: -150px;
+  }
+
   .toggle-phone-nav {
     position: fixed;
     bottom: 70px;
@@ -397,10 +401,13 @@ footer {
     display: flex;
     position: fixed;
     bottom: 60px;
-    height: 40%;
+    height: 68vh;
     left: 0%;
     background-color: var(--bg-color);
     transition: bottom 0.5s ease-in-out;
+    border: 2px solid var(--highlight-primary);
+    border-bottom: 0;
+    box-shadow: 2px 1px 8px 0px black;
   }
 
   .phone-nav ul {
@@ -410,7 +417,7 @@ footer {
   }
 
   .hidden-phone-nav {
-    bottom: -50%;
+    bottom: -68vh;
   }
 
   /* ------------- SLIDER COMPONENT BEGIN ------------- */
