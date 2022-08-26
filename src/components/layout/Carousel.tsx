@@ -28,16 +28,16 @@ export default function Carousel({ dataCarousel }): JSX.Element {
   const makeItemsContainers = (items) => new Array(computeLength(items)).fill(0);
 
   const separateItems = (items: any[]): any[] => {
-    let increment = 0
+    let increment = 0;
     let start = 0;
     let end = 0;
     let arr = [];
     if (computeLength(items) === 3) {
-        increment = 3
-        end = 3
+      increment = 3;
+      end = 3;
     } else {
-        increment = 1
-        end = 1
+      increment = 1;
+      end = 1;
     }
 
     for (let i = 0; i < computeLength(items); i++) {
@@ -49,7 +49,7 @@ export default function Carousel({ dataCarousel }): JSX.Element {
     return arr;
   };
 
-  //   const enableButton = () => items.length > 3;
+  const enableButton = (items) => items.length < 3;
 
   const changeSlideLeft = () => {
     if (indexSlide > 0) setIndexSlide(indexSlide - 1);
@@ -59,8 +59,6 @@ export default function Carousel({ dataCarousel }): JSX.Element {
     if (indexSlide < computeLength(items) - 1) setIndexSlide(indexSlide + 1);
   };
 
-  console.log(windowSize);
-
   return (
     <div className="carousel-container">
       <img
@@ -68,7 +66,7 @@ export default function Carousel({ dataCarousel }): JSX.Element {
         src="/arrow_slider.png"
         //   width={100}
         //   height={100}
-        className="carousel-arrow"
+        className={'carousel-arrow ' + (enableButton(items) ? 'hidden-arrow' : '')}
         id="carousel-left-arrow"
       />
       <img
@@ -76,7 +74,7 @@ export default function Carousel({ dataCarousel }): JSX.Element {
         src="/arrow_slider.png"
         //   width={100}
         //   height={100}
-        className="carousel-arrow"
+        className={'carousel-arrow ' + (enableButton(items) ? 'hidden-arrow' : '')}
         id="carousel-right-arrow"
       />
 
