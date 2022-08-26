@@ -209,8 +209,6 @@ header a:hover {
 
   display: flex;
   align-items: center;
-
-  margin-bottom: 400px;
 }
 
 .carousel-arrow {
@@ -340,6 +338,16 @@ header a:hover {
 }
 
 /* ------------- CAROUSEL COMPONENT END --------- */
+
+/* ############################################## */
+
+/* ------------- AD COMPONENT START ------------- */
+
+.ad-container {
+  cursor: pointer;
+}
+
+/* ------------- AD COMPONENT END ------------- */
 
 /* ############################################## */
 
@@ -504,7 +512,3 @@ footer {
     width: 100%;
   }
 }
-
-/* header {
-  display: none;
-} */
