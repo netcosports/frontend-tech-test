@@ -428,7 +428,7 @@ footer {
   }
 
   .title-video {
-    top: 65%;
+    top: 10.5vh;
     font-size: 20px;
   }
 
@@ -448,6 +448,39 @@ footer {
   }
 
   /* ------------- SLIDER COMPONENT END ------------- */
+
+  /* ################################################ */
+
+  /* ------------- CAROUSEL COMPONENT START --------- */
+
+  .img-and-infos-container {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .img-and-infos-container img {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .img-and-infos-container img {
+    z-index: 1;
+    filter: brightness(0.3);
+  }
+
+  .name-img-carousel {
+    z-index: 5;
+    width: 50%;
+    text-align: center;
+    top: 25%;
+  }
+
+  .link-img-carousel {
+    z-index: 5;
+    top: 75%;
+  }
+
+  /* ------------- CAROUSEL COMPONENT START --------- */
 
   /* ################################################ */
 

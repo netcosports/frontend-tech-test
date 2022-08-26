@@ -10,6 +10,8 @@ import { useQuery } from 'react-query';
 import Cms from '../../services/Cms';
 
 function Layout({ children }: { children: React.ReactNode }): JSX.Element {
+  // console.log(children);
+  
   const dataNav = children.props.webConfig;
   const dataPage = children.props.page;
 
