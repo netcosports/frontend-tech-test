@@ -472,6 +472,12 @@ footer {
 
   /* ------------- CAROUSEL COMPONENT START --------- */
 
+  .carousel-items-container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+
   .img-and-infos-container {
     min-width: 100%;
     max-width: 100%;

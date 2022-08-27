@@ -97,7 +97,7 @@ export default function Carousel({ dataCarousel }): JSX.Element {
                     src={item.poster ? item.poster : item.posterPortrait}
                     alt={item.name}
                   />
-                  <Link href="/">
+                  <Link href={`/videos/${item.itemId}/${item.name.toLowerCase().split(' ').join('-')}`}>
                     <p className="link-img-carousel">Voir la vidéo</p>
                   </Link>
                 </div>

@@ -20,13 +20,12 @@ const queryClient = new QueryClient({
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   const webConfig = pageProps.webConfig;
-  const { SEO } = webConfig;
 
-  console.log('webConfig', webConfig);
+  // console.log('webConfig', webConfig);
 
   return (
     <>
-      <DefaultSeo title={SEO.title} description={SEO.description} />
+      <DefaultSeo title={"awesome title"} />
       <QueryClientProvider client={queryClient}>
         <ViewportProvider>
           <NextNProgress color="var(--secondary)" />

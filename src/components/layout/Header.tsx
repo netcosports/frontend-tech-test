@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import {useScrollPosition} from "$utils/useScrollPosition"
+import { useScrollPosition } from '$utils/useScrollPosition';
 
 function Header({ dataHeader }: any): JSX.Element {
   // PROPS
@@ -11,20 +11,26 @@ function Header({ dataHeader }: any): JSX.Element {
 
   // STATE
   const [toggleNav, setToggleNav] = useState(true);
-  const [showOnScroll, setShowOnScroll] = useState(true)
+  const [showOnScroll, setShowOnScroll] = useState(true);
 
   // METHODS
   const handleClick = () => {
     setToggleNav(!toggleNav);
   };
 
-  useScrollPosition(({ prevPos, currPos }) => {
-    const isShow = currPos.y > prevPos.y
-    if (isShow !== showOnScroll) setShowOnScroll(isShow)
-  }, [showOnScroll], false, false, 50)
+  useScrollPosition(
+    ({ prevPos, currPos }) => {
+      const isShow = currPos.y > prevPos.y;
+      if (isShow !== showOnScroll) setShowOnScroll(isShow);
+    },
+    [showOnScroll],
+    false,
+    false,
+    50,
+  );
 
   return (
-    <header className={showOnScroll ? "hidden-nav-bar" : ""}>
+    <header className={showOnScroll ? 'hidden-nav-bar' : ''}>
       <div className="logo">
         <img src={logo.url} width={235} height={100} />
       </div>
