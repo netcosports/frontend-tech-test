@@ -11,12 +11,14 @@ html {
 
 :root {
   --secondary: #0062bf;
-  --fg-color: rgba(255, 255, 255, 0.9);
+  --fg-color: white;
   --bg-color: #2b2b2b;
   --highlight-primary: #008aff;
   --gradient: linear-gradient(300deg, #ba4aff, rgba(186, 74, 255, 0) 70%);
   --transition: 250ms ease-out;
   --transition-long: 500ms ease-out;
+  --title-size: 50px;
+  --title-size-phone: 30px;
 }
 
 .logo {
@@ -344,10 +346,151 @@ header a:hover {
 /* ------------- AD COMPONENT START ------------- */
 
 .ad-container {
+  height: 45vh;
   cursor: pointer;
 }
 
-/* ------------- AD COMPONENT END ------------- */
+/* ------------- AD COMPONENT END --------------- */
+
+/* ############################################## */
+
+/* --------- VIDEO DETAIL PAGE START ------------ */
+
+.video-detail-container {
+  width: 100%;
+  height: 100%;
+  background-color: var(--secondary);
+}
+
+.back-home-btn {
+  display: inline-block;
+  margin: 30px 0px 0px 30px;
+  color: var(--fg-color);
+  font-size: 30px;
+  padding: 20px;
+  border: 1px solid var(--fg-color);
+  background-color: var(--bg-color);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.img-and-ctrls-container {
+  margin: 5vh auto 0px auto;
+  position: relative;
+  width: 60%;
+  height: 60vh;
+  background-color: var(--bg-color);
+}
+
+.img-and-ctrls-container img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bar-duration-bg,
+.play-btn-bg {
+  z-index: 5;
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  height: 30px;
+  background-color: var(--bg-color);
+  border: 1px solid black;
+}
+
+.bar-duration-bg {
+  width: 95%;
+  right: 0;
+}
+
+.play-btn-bg {
+  width: 5%;
+  left: 0;
+  cursor: pointer;
+}
+
+.play-btn {
+  z-index: 6;
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+  width: 5%;
+  height: 30px;
+  background-color: var(--fg-color);
+  clip-path: polygon(75% 50%, 25% 25%, 25% 75%);
+  cursor: pointer;
+}
+
+.title-video-detail {
+  color: var(--fg-color);
+  font-size: var(--title-size);
+  text-align: center;
+}
+
+.informations-video-detail {
+  width: 70%;
+  margin: auto;
+  color: var(--fg-color);
+}
+
+.categories-video-detail,
+.tags-video-detail {
+  margin: 10px 0px;
+}
+
+.category-video-detail,
+.tag-video-detail {
+  margin: 5px 10px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.category-video-detail {
+  display: inline-block;
+  background-color: var(--fg-color);
+  color: var(--bg-color);
+}
+
+.tag-video-detail {
+  display: inline-block;
+  background-color: var(--bg-color);
+  text-transform: lowercase;
+}
+
+.description-video-detail {
+  width: 100%;
+  margin: 30px auto 30px auto;
+  text-align: justify;
+  color: var(--fg-color);
+}
+
+.bar-duration {
+  z-index: 6;
+  position: absolute;
+  width: 90%;
+  height: 5px;
+  background-color: var(--fg-color);
+  right: calc((95% - 90%) / 2);
+  bottom: calc((30px - 5px) / 2);
+  cursor: pointer;
+}
+
+.dot-duration {
+  z-index: 7;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+  bottom: calc((30px - 15px) / 2);
+  left: calc((5% + ((95% - 90%) / 2)) - (15px / 2) );
+}
+
+/* ----------- VIDEO DETAIL PAGE END ------------ */
 
 /* ############################################## */
 
@@ -386,7 +529,7 @@ footer {
     display: block;
     height: 50px;
     width: 50px;
-    background-color: var(--secondary);
+    background-color: var(--bg-color);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -509,9 +652,85 @@ footer {
     height: 30vh;
   }
 
-  /* ------------- CAROUSEL COMPONENT START --------- */
+  .right {
+    left: 100%;
+  }
+
+  /* ---------- CAROUSEL COMPONENT START ------------ */
 
   /* ################################################ */
+
+
+  .ad-container {
+    height: 45vh;
+  }
+
+  .img-ad {
+    max-width: initial;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* ---------- VIDEO DETAIL PAGE START ------------- */
+
+  .img-and-ctrls-container {
+    margin: 5vh auto 0px auto;
+    width: 85%;
+    height: 30vh;
+  }
+
+  .back-home-btn {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: 5vh auto 0px auto;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .bar-duration-bg {
+    width: 85%;
+  }
+
+  .play-btn-bg {
+    width: 15%;
+  }
+
+  .play-btn {
+    width: 15%;
+  }
+
+  .title-video-detail {
+    color: var(--fg-color);
+    font-size: var(--title-size-phone);
+    text-align: center;
+    margin: 10px auto 10px auto;
+  }
+
+  .description-video-detail {
+    margin: 10px auto 10px auto;
+    text-align: center;
+  }
+
+  .bar-duration {
+    width: 80%;
+    height: 5px;
+    background-color: var(--fg-color);
+    right: calc((85% - 80%) / 2);
+    bottom: calc((30px - 5px) / 2);
+  }
+  
+  .dot-duration {
+    left: calc((15% + ((88% - 80%) / 2)) - (15px / 2) );
+  }
+
+  .informations-video-detail {
+    width: 90%;
+    margin-bottom: 8vh;
+  }
+
+  /* --------- VIDEO DETAIL PAGE END ------------- */
 
   footer {
     height: 60px;
