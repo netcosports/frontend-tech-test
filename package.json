@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "commit": "cz",
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "APP_ENV=development next dev",
+    "build": "APP_ENV=development next build",
+    "start": "APP_ENV=development next start",
     "prepare": "husky install",
     "release": "standard-version",
     "lint": "eslint src"
