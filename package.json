@@ -64,6 +64,9 @@
   },
   "lint-staged": {
     "package.json": "sort-package-json",
-    "**/*.{js,ts,tsx}": ["prettier --write", "eslint --cache --fix"]
+    "**/*.{js,ts,tsx}": [
+      "prettier --write",
+      "eslint --cache --fix"
+    ]
   }
 }
