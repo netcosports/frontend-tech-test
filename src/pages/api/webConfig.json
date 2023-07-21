@@ -1,0 +1,1240 @@
+{
+  "_kenticoItemType": "page_vertical_layout",
+  "_kenticoCodename": "tech_test",
+  "_kenticoId": "e48f7aac-4a07-4257-9f32-426cd551e02e",
+  "_kenticoLanguage": "fr",
+  "title": "[DEV] OTT Starter",
+  "description": null,
+  "image": null,
+  "_kenticoPublicationDate": "2022-11-25T13:24:36.1957887Z",
+  "components": [
+    {
+      "_kenticoCodename": "new_world_dev_update",
+      "_kenticoId": "39d7ba86-6418-4a73-b989-e31f72e5b188",
+      "_kenticoItemType": "section_static_ad",
+      "_kenticoLanguage": "fr",
+      "image": [
+        {
+          "buttonRedirectionUrl": "",
+          "buttonRedirectionTargetType": "internal",
+          "buttonTitle": "",
+          "image": {
+            "description": null,
+            "height": "412",
+            "name": "Capture d’écran 2023-07-05 à 16.31.33.png",
+            "size": 105823,
+            "type": "image/png",
+            "url": "https://assets-eu-01.kc-usercontent.com:443/604c2fe8-9bc6-010e-8c13-73c42e66ce87/dd801ec9-5784-4583-801c-fd0c5cae1cb2/Capture%20d%E2%80%99e%CC%81cran%202023-07-05%20a%CC%80%2016.31.33.png",
+            "width": "2740"
+          },
+          "mobileImage": {
+            "description": null,
+            "height": "524",
+            "name": "Capture d’écran 2023-07-05 à 16.30.52.png",
+            "size": 86940,
+            "type": "image/png",
+            "url": "https://assets-eu-01.kc-usercontent.com:443/604c2fe8-9bc6-010e-8c13-73c42e66ce87/965ef272-e0a9-4e73-89f8-1ff3bf091bf7/Capture%20d%E2%80%99e%CC%81cran%202023-07-05%20a%CC%80%2016.30.52.png",
+            "width": "972"
+          }
+        }
+      ],
+      "redirectionTarget": "https://www.newworld.com/en-us/news/articles/new-world-update-1-5-2"
+    },
+    {
+      "_kenticoCodename": "asse_dev___home___slider",
+      "_kenticoId": "b43e34cf-5c58-4e5c-b5c1-5cffe1708b3a",
+      "_kenticoItemType": "section_static_slider",
+      "_kenticoLanguage": "fr",
+      "title": "Reborn - English slider ",
+      "items": [
+        {
+          "itemType": "video",
+          "itemId": "1c08d7e1-0b44-4874-b10c-a72e55b23c24",
+          "description": "Nulla porttitor accumsan tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.",
+          "fullDescription": "<p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.<br><br>Donec sollicitudin molestie malesuada. Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.<br><br>Pellentesque in ipsum id orci porta dapibus. Pellentesque in ipsum id orci porta dapibus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat. Pellentesque in ipsum id orci porta dapibus.<br><br>Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Proin eget tortor risus.<br></p>",
+          "technicalDescription": "<p><br></p>",
+          "duration": "00:00:03",
+          "name": "Beyblade reborn 2",
+          "poster": "https://assets-eu-01.kc-usercontent.com:443/604c2fe8-9bc6-010e-8c13-73c42e66ce87/55595200-82d3-41f1-8a22-4c612bd076e7/03_HAND_16-9_01.png",
+          "posterPortrait": "https://assets-eu-01.kc-usercontent.com:443/604c2fe8-9bc6-010e-8c13-73c42e66ce87/e1387eea-ab3c-4a4c-babd-76007e059b89/03_HAND_2-3_01.png",
+          "urlSlug": null,
+          "tags": [
+            {
+              "id": "ddb8905a-6c67-4d29-a5ae-e194d0caa828",
+              "tagType": "search",
+              "name": "TestBugTag3",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-11-21T15:47:48.888Z",
+              "updatedAt": "2022-11-21T15:47:57.563Z",
+              "ItemTag": {
+                "id": "85aba53c-58b2-496a-a48e-b39a4603e9df",
+                "tagId": "ddb8905a-6c67-4d29-a5ae-e194d0caa828",
+                "taggable": "video",
+                "taggableId": "1c08d7e1-0b44-4874-b10c-a72e55b23c24"
+              },
+              "PaymentOffers": []
+            },
+            {
+              "id": "528b3ac5-331e-486d-8ea5-f86fbe257119",
+              "tagType": "search",
+              "name": "TestBugTag2",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-11-21T15:48:51.133Z",
+              "updatedAt": "2022-11-21T15:48:51.133Z",
+              "ItemTag": {
+                "id": "3a9342f0-a7e2-4049-a28a-1e8872de9c62",
+                "tagId": "528b3ac5-331e-486d-8ea5-f86fbe257119",
+                "taggable": "video",
+                "taggableId": "1c08d7e1-0b44-4874-b10c-a72e55b23c24"
+              },
+              "PaymentOffers": []
+            },
+            {
+              "id": "42691b49-ce42-48f5-b435-696ae86d8978",
+              "tagType": "search",
+              "name": "search me",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-03-23T13:29:59.588Z",
+              "updatedAt": "2022-06-17T14:20:17.208Z",
+              "ItemTag": {
+                "id": "7ecb9b49-5e31-404b-a035-9bf5b5b01791",
+                "tagId": "42691b49-ce42-48f5-b435-696ae86d8978",
+                "taggable": "video",
+                "taggableId": "1c08d7e1-0b44-4874-b10c-a72e55b23c24"
+              },
+              "PaymentOffers": []
+            }
+          ],
+          "products": [
+            "6985dd7a-8f26-4e0f-a61a-cd804c5b065f",
+            "6a58977c-6bc5-4dbb-932c-1352be549b9b",
+            "f3086d9b-04dc-4ee9-baf6-454cfdedd0d4"
+          ],
+          "categories": [
+            {
+              "id": "9cc02811-aad0-451a-aade-c78fdf23393a",
+              "name": "Beyblade",
+              "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "description": "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.",
+              "thumbnail": "https://dev-assets.onrewind.tv/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/Beyblade-1654879435642.jpeg",
+              "portraitThumbnail": null,
+              "createdAt": "2022-06-10T16:43:58.968Z",
+              "updatedAt": "2022-07-12T15:50:05.987Z",
+              "VideoCategory": {
+                "VideoId": "1c08d7e1-0b44-4874-b10c-a72e55b23c24",
+                "CategoryId": "9cc02811-aad0-451a-aade-c78fdf23393a",
+                "createdAt": "2022-06-10T16:49:05.687Z",
+                "updatedAt": "2022-06-10T16:49:05.687Z"
+              }
+            }
+          ],
+          "subCategories": [
+            {
+              "id": "85b966d6-33c4-4467-8cb3-746d9f8ab83c",
+              "CategoryId": "9cc02811-aad0-451a-aade-c78fdf23393a",
+              "SubCategoryId": "88cf079f-ec6e-4724-bfef-34bcbcfd5939",
+              "VideoId": "1c08d7e1-0b44-4874-b10c-a72e55b23c24",
+              "createdAt": "2022-06-10T19:10:51.643Z",
+              "updatedAt": "2022-06-10T19:10:51.643Z",
+              "SubCategory": {
+                "id": "88cf079f-ec6e-4724-bfef-34bcbcfd5939",
+                "name": "duels",
+                "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+                "createdAt": "2022-06-10T19:09:58.762Z",
+                "updatedAt": "2022-06-10T19:09:58.762Z"
+              }
+            }
+          ]
+        },
+        {
+          "itemType": "playlist",
+          "itemId": "82832f7c-9cde-4f32-a3fe-986eec84a497",
+          "name": "Playlist Formula 1 ",
+          "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+          "CategoryId": "06f58529-4b08-4c34-a6de-a42580f714ad",
+          "description": "Discover all our videos in a single playlist",
+          "thumbnail": "https://dev-onrewind.imgix.net/playlists-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/Playlist_ASSE_-thumbnailLandscape-1688563365343.jpg",
+          "portraitThumbnail": "https://dev-onrewind.imgix.net/playlists-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/Playlist_ASSE_-thumbnailPortrait-1688563367925.png",
+          "heroImageDesktop": "https://dev-onrewind.imgix.net/playlists-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/Playlist_ASSE_-heroLandscape-1688563371270.jpg",
+          "heroImageMobile": "https://dev-onrewind.imgix.net/playlists-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/Playlist_ASSE_-heroMobile-1688563372666.png",
+          "createdAt": "2022-11-10T14:20:28.610Z",
+          "updatedAt": "2023-07-05T13:40:53.558Z",
+          "Videos": [
+            {
+              "itemType": "video",
+              "itemId": "b3b59f82-0b48-4096-9b77-eb37c0788869",
+              "description": "Ce dimanche après-midi, au Stade Geoffroy-Guichard, l'AS Saint-Etienne a été corrigée par le Stade Rennais FC (0-5). Le résumé vidéo de cette rencontre de la 17ème journée de Ligue 1 est à retrouver ci-dessus.",
+              "fullDescription": "<p>Lorem Ipsum is simply dummy text of the printing and \ntypesetting industry. Lorem Ipsum has been the industry's standard dummy\n text ever since the 1500s, when an unknown printer took a galley of \ntype and scrambled it to make a type specimen book. It has survived not \nonly five centuries, but also the leap into electronic typesetting, \nremaining essentially unchanged. It was popularised in the 1960s with \nthe release of Letraset sheets containing Lorem Ipsum passages, and more\n recently with desktop publishing software like Aldus PageMaker \nincluding versions of Lorem Ipsum.</p>",
+              "technicalDescription": "<p><strong>Conception/écriture/jeu</strong>&nbsp;Sophie delacollette, Alice Martinache, Héloïse Meire</p><p> <strong>Création sonore et régie au plateau</strong>&nbsp;Loïc Le Foll </p><p><strong>Regard extérieur à la mise en scène et regard dramaturgique</strong>&nbsp;Isabelle Jonniaux </p><p><strong>Regard dramaturgique et assistanat&nbsp;</strong>Agathe Meziani </p><p><strong>Travail corps/mouvement</strong>&nbsp;Thierry Duirat </p><p><strong>Création vidéo</strong>&nbsp;Bénédicte Alloing </p><p><strong>Scénographie</strong> et costumes&nbsp;Irma Morin </p><p><strong>Création phot</strong>o&nbsp;Marie Hélène Tercafs </p><p><strong>Administration</strong>&nbsp;Vélrie Khol </p><p>Un spectacle du&nbsp;collectif La Gang </p><p>En coproduction avec&nbsp;le Théatre de Liège Les Tanneurs, la compagnie What's Up, la compagnie Point Zéro, la compagnie La Variation des Constances et DC&amp;J Création Avec le soutien du&nbsp;tax Sheiter du Gouvernement Fédéral de Belgique et de Invest tax Shelter, du théatre des Doms. Le théatre du Papyrus, du LookIN'OUT, de la COCOF et d'Equal Brussels</p>",
+              "duration": "01:38:46",
+              "name": "Pause dans la foret",
+              "poster": "https://dev-onrewind.imgix.net/thumbnails/b3b59f82-0b48-4096-9b77-eb37c0788869/img-13612.jpg",
+              "posterPortrait": null,
+              "urlSlug": null
+            },
+            {
+              "itemType": "video",
+              "itemId": "091d44f1-b7fc-49a4-98d9-eda0339f85ef",
+              "description": null,
+              "fullDescription": null,
+              "technicalDescription": null,
+              "duration": "00:00:38",
+              "name": "La saison des ramen",
+              "poster": "https://dev-onrewind.imgix.net/thumbnails/091d44f1-b7fc-49a4-98d9-eda0339f85ef/img-03293.png",
+              "posterPortrait": null,
+              "urlSlug": null
+            },
+            {
+              "itemType": "video",
+              "itemId": "7aef982c-f413-4e5b-8d4c-163cce5fd978",
+              "description": null,
+              "fullDescription": null,
+              "technicalDescription": null,
+              "duration": "00:00:38",
+              "name": "Poussieres d'etoiles",
+              "poster": "https://dev-onrewind.imgix.net/thumbnails/7aef982c-f413-4e5b-8d4c-163cce5fd978/img-53114.jpg",
+              "posterPortrait": null,
+              "urlSlug": null
+            },
+            {
+              "itemType": "video",
+              "itemId": "c5d47307-504c-4adb-9b34-96ef6b25d909",
+              "description": "Dans les pas d'Emmanuel Demont, le speaker de Geoffroy-Guichard, qui donne de la voix lors de chaque sortie des Verts dans leur Chaudron.",
+              "fullDescription": null,
+              "technicalDescription": null,
+              "duration": "00:00:38",
+              "name": "Le sorcier",
+              "poster": "https://dev-onrewind.imgix.net/thumbnails/c5d47307-504c-4adb-9b34-96ef6b25d909/img-93981.jpg",
+              "posterPortrait": null,
+              "urlSlug": null
+            },
+            {
+              "itemType": "video",
+              "itemId": "fdcf6604-7535-4a14-a703-79a7899da15e",
+              "description": "short description for SEO mainly",
+              "fullDescription": "<p>Hey, c'est la description complète !</p>",
+              "technicalDescription": "<p>Et là c'est la description technique</p>",
+              "duration": "00:00:26",
+              "name": "Zeratul all quotes",
+              "poster": "https://dev-onrewind.imgix.net/thumbnails/fdcf6604-7535-4a14-a703-79a7899da15e/img-07929.png",
+              "posterPortrait": null,
+              "urlSlug": null
+            }
+          ],
+          "numberOfVideos": 5
+        },
+        {
+          "itemType": "category",
+          "itemId": "06f58529-4b08-4c34-a6de-a42580f714ad",
+          "id": "06f58529-4b08-4c34-a6de-a42580f714ad",
+          "name": "Category ",
+          "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+          "description": "See all the video of this category ",
+          "thumbnail": "https://dev-onrewind.imgix.net/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/TestCategory-1686219512434.png",
+          "portraitThumbnail": "https://dev-onrewind.imgix.net/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/TestCategory-1686219515365.png",
+          "createdAt": "2022-12-09T09:54:58.155Z",
+          "updatedAt": "2023-07-05T12:52:37.947Z"
+        },
+        {
+          "itemType": "event",
+          "itemId": "82d09e37-d09f-448d-8827-c8b4791bafab",
+          "description": "Pre season at Bahrein",
+          "name": "En direct",
+          "poster": "https://dev-onrewind.imgix.net/events-posters/img-1688562341474.png",
+          "urlSlug": "in-live",
+          "tags": [
+            {
+              "id": "eb01a557-7417-4409-a3e3-d89d28e82570",
+              "tagType": "category",
+              "name": "scheduled",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-03-23T13:41:54.885Z",
+              "updatedAt": "2022-03-23T13:41:54.885Z",
+              "ItemTag": {
+                "id": "67758262-bdc5-467c-8a66-7a9080735a89",
+                "tagId": "eb01a557-7417-4409-a3e3-d89d28e82570",
+                "taggable": "event",
+                "taggableId": "82d09e37-d09f-448d-8827-c8b4791bafab"
+              },
+              "PaymentOffers": []
+            }
+          ],
+          "categories": [],
+          "startDate": "2023-07-01T14:28:00.000Z",
+          "endDate": "2024-01-11T16:28:00.000Z",
+          "products": []
+        }
+      ],
+      "displayRatio": "normal"
+    },
+    {
+      "_kenticoCodename": "beyblade_videos",
+      "_kenticoId": "8da86e48-7f1a-40f7-a857-a8eef5c6caac",
+      "_kenticoItemType": "section_dynamic_grid_with_category",
+      "_kenticoLanguage": "fr",
+      "Videos": [
+        {
+          "itemType": "video",
+          "itemId": "1c08d7e1-0b44-4874-b10c-a72e55b23c24",
+          "description": "Nulla porttitor accumsan tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.",
+          "fullDescription": "<p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.<br><br>Donec sollicitudin molestie malesuada. Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.<br><br>Pellentesque in ipsum id orci porta dapibus. Pellentesque in ipsum id orci porta dapibus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat. Pellentesque in ipsum id orci porta dapibus.<br><br>Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Proin eget tortor risus.<br></p>",
+          "technicalDescription": "<p><br></p>",
+          "duration": "00:00:03",
+          "name": "Beyblade reborn 2",
+          "poster": "https://dev-onrewind.imgix.net/thumbnails/1c08d7e1-0b44-4874-b10c-a72e55b23c24/img-59554.png",
+          "posterPortrait": null,
+          "urlSlug": null,
+          "products": [
+            "6985dd7a-8f26-4e0f-a61a-cd804c5b065f",
+            "6a58977c-6bc5-4dbb-932c-1352be549b9b",
+            "f3086d9b-04dc-4ee9-baf6-454cfdedd0d4"
+          ]
+        },
+        {
+          "itemType": "video",
+          "itemId": "34c738cf-9206-4e9e-bbf9-ae0bb9f70110",
+          "description": null,
+          "fullDescription": null,
+          "technicalDescription": null,
+          "duration": "00:00:01",
+          "name": "Beyblade continue",
+          "poster": "https://dev-onrewind.imgix.net/thumbnails/34c738cf-9206-4e9e-bbf9-ae0bb9f70110/img-55883.png",
+          "posterPortrait": null,
+          "urlSlug": null
+        },
+        {
+          "itemType": "video",
+          "itemId": "fe4dcc88-d6b5-4cdf-af5d-4cec568791db",
+          "description": null,
+          "fullDescription": null,
+          "technicalDescription": null,
+          "duration": "00:00:02",
+          "name": "Beyblade starting",
+          "poster": "https://dev-onrewind.imgix.net/thumbnails/fe4dcc88-d6b5-4cdf-af5d-4cec568791db/img-30300.jpg",
+          "posterPortrait": null,
+          "urlSlug": null,
+          "products": ["f3086d9b-04dc-4ee9-baf6-454cfdedd0d4"]
+        },
+        {
+          "itemType": "video",
+          "itemId": "8b7830b8-8189-481b-a724-1dc2d842796a",
+          "description": null,
+          "fullDescription": "<h2>Pellentesque in ipsum id orci porta dapibus. </h2><p>Nulla quis lorem ut libero malesuada feugiat. <u>Cras ultricies ligula sed magna dictum porta</u>. Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada.<br><br>Cras ultricies ligula sed magna dictum porta. Vivamus magna justo, lacinia eget consectetur sed, <em>convallis at </em>tellus. Nulla quis lorem ut libero malesuada feugiat. Sed porttitor lectus nibh. Proin eget tortor risus.<br><br>Curabitur non <strong>nulla sit amet nisl tempus</strong> convallis quis ac lectus. Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur <strong>sed, convallis</strong> at tellus. Vivamus <strong>magna justo</strong>, lacinia eget consectetur sed, convallis at tellus.</p>",
+          "technicalDescription": null,
+          "duration": "00:00:10",
+          "name": "Bunny 6 - The come back",
+          "poster": "https://dev-onrewind.imgix.net/thumbnails/8b7830b8-8189-481b-a724-1dc2d842796a/img-95696.png",
+          "posterPortrait": null,
+          "urlSlug": null
+        }
+      ],
+      "cursor": {
+        "before": null,
+        "after": "WyIyMDIyLTA0LTA3VDEzOjIzOjMwLjE4MVoiLCI4Yjc4MzBiOC04MTg5LTQ4MWItYTcyNC0xZGMyZDg0Mjc5NmEiXQ=="
+      },
+      "codename": "beyblade_videos",
+      "type": "section_dynamic_grid_with_category",
+      "title": "Awesome title",
+      "withFilters": true,
+      "SubCategories": [
+        {
+          "id": "88cf079f-ec6e-4724-bfef-34bcbcfd5939",
+          "name": "duels",
+          "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+          "createdAt": "2022-06-10T19:09:58.762Z",
+          "updatedAt": "2022-06-10T19:09:58.762Z"
+        },
+        {
+          "id": "676c1995-baaf-4b89-864b-d56f30ed7c54",
+          "name": "match",
+          "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+          "createdAt": "2022-07-12T14:21:34.769Z",
+          "updatedAt": "2022-07-12T14:21:34.769Z"
+        }
+      ],
+      "itemsType": "video",
+      "params": {
+        "title": "Awesome title",
+        "type": "section_dynamic_grid_with_category",
+        "numberOfItems": 4,
+        "withFilters": true,
+        "itemsDisplayType": "landscape"
+      },
+      "categoryId": "9cc02811-aad0-451a-aade-c78fdf23393a",
+      "id": "9cc02811-aad0-451a-aade-c78fdf23393a",
+      "name": "Beyblade",
+      "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+      "description": "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.",
+      "thumbnail": "https://dev-assets.onrewind.tv/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/Beyblade-1654879435642.jpeg",
+      "portraitThumbnail": null,
+      "createdAt": "2022-06-10T16:43:58.968Z",
+      "updatedAt": "2022-07-12T15:50:05.987Z"
+    },
+    {
+      "_kenticoCodename": "portrait_carousel",
+      "_kenticoId": "61de518d-7b07-427f-9f60-7120d3bc3311",
+      "_kenticoItemType": "section_static_carousel",
+      "_kenticoLanguage": "fr",
+      "title": "Static en français et landscape",
+      "items": [
+        {
+          "itemType": "video",
+          "itemId": "ea539d3c-ff22-4d61-8c73-b9156d35e6e7",
+          "description": "See all the detail of our Mauve TV plateform",
+          "fullDescription": null,
+          "technicalDescription": null,
+          "duration": "00:00:55",
+          "name": "Mauve TV Sponsorisation",
+          "poster": "https://dev-onrewind.imgix.net/thumbnails/ea539d3c-ff22-4d61-8c73-b9156d35e6e7/img-17393.png",
+          "posterPortrait": "https://dev-onrewind.imgix.net/thumbnails/ea539d3c-ff22-4d61-8c73-b9156d35e6e7/img-25404.png",
+          "urlSlug": null,
+          "tags": [],
+          "categories": [
+            {
+              "id": "06f58529-4b08-4c34-a6de-a42580f714ad",
+              "name": "Category ",
+              "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "description": "See all the video of this category ",
+              "thumbnail": "https://dev-onrewind.imgix.net/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/TestCategory-1686219512434.png",
+              "portraitThumbnail": "https://dev-onrewind.imgix.net/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/TestCategory-1686219515365.png",
+              "createdAt": "2022-12-09T09:54:58.155Z",
+              "updatedAt": "2023-07-05T12:52:37.947Z",
+              "VideoCategory": {
+                "VideoId": "ea539d3c-ff22-4d61-8c73-b9156d35e6e7",
+                "CategoryId": "06f58529-4b08-4c34-a6de-a42580f714ad",
+                "createdAt": "2023-07-05T13:07:34.297Z",
+                "updatedAt": "2023-07-05T13:07:34.297Z"
+              }
+            },
+            {
+              "id": "3b008e86-469f-4289-8c6a-c030649a5036",
+              "name": "Mauve TV ",
+              "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "description": "All about Mauve TV",
+              "thumbnail": "https://dev-onrewind.imgix.net/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/Mauve TV -1688562731304.png",
+              "portraitThumbnail": "https://dev-onrewind.imgix.net/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/Mauve TV -1688562734661.png",
+              "createdAt": "2023-07-05T13:12:17.094Z",
+              "updatedAt": "2023-07-05T13:12:17.094Z",
+              "VideoCategory": {
+                "VideoId": "ea539d3c-ff22-4d61-8c73-b9156d35e6e7",
+                "CategoryId": "3b008e86-469f-4289-8c6a-c030649a5036",
+                "createdAt": "2023-07-05T13:12:30.529Z",
+                "updatedAt": "2023-07-05T13:12:30.529Z"
+              }
+            }
+          ],
+          "subCategories": []
+        },
+        {
+          "itemType": "category",
+          "itemId": "06f58529-4b08-4c34-a6de-a42580f714ad",
+          "id": "06f58529-4b08-4c34-a6de-a42580f714ad",
+          "name": "Category ",
+          "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+          "description": "See all the video of this category ",
+          "thumbnail": "https://dev-onrewind.imgix.net/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/TestCategory-1686219512434.png",
+          "portraitThumbnail": "https://dev-onrewind.imgix.net/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/TestCategory-1686219515365.png",
+          "createdAt": "2022-12-09T09:54:58.155Z",
+          "updatedAt": "2023-07-05T12:52:37.947Z"
+        },
+        {
+          "itemType": "playlist",
+          "itemId": "82832f7c-9cde-4f32-a3fe-986eec84a497",
+          "name": "Playlist Formula 1 ",
+          "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+          "CategoryId": "06f58529-4b08-4c34-a6de-a42580f714ad",
+          "description": "Discover all our videos in a single playlist",
+          "thumbnail": "https://dev-onrewind.imgix.net/playlists-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/Playlist_ASSE_-thumbnailLandscape-1688563365343.jpg",
+          "portraitThumbnail": "https://dev-onrewind.imgix.net/playlists-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/Playlist_ASSE_-thumbnailPortrait-1688563367925.png",
+          "heroImageDesktop": "https://dev-onrewind.imgix.net/playlists-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/Playlist_ASSE_-heroLandscape-1688563371270.jpg",
+          "heroImageMobile": "https://dev-onrewind.imgix.net/playlists-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/Playlist_ASSE_-heroMobile-1688563372666.png",
+          "createdAt": "2022-11-10T14:20:28.610Z",
+          "updatedAt": "2023-07-05T13:40:53.558Z",
+          "Videos": [
+            {
+              "itemType": "video",
+              "itemId": "b3b59f82-0b48-4096-9b77-eb37c0788869",
+              "description": "Ce dimanche après-midi, au Stade Geoffroy-Guichard, l'AS Saint-Etienne a été corrigée par le Stade Rennais FC (0-5). Le résumé vidéo de cette rencontre de la 17ème journée de Ligue 1 est à retrouver ci-dessus.",
+              "fullDescription": "<p>Lorem Ipsum is simply dummy text of the printing and \ntypesetting industry. Lorem Ipsum has been the industry's standard dummy\n text ever since the 1500s, when an unknown printer took a galley of \ntype and scrambled it to make a type specimen book. It has survived not \nonly five centuries, but also the leap into electronic typesetting, \nremaining essentially unchanged. It was popularised in the 1960s with \nthe release of Letraset sheets containing Lorem Ipsum passages, and more\n recently with desktop publishing software like Aldus PageMaker \nincluding versions of Lorem Ipsum.</p>",
+              "technicalDescription": "<p><strong>Conception/écriture/jeu</strong>&nbsp;Sophie delacollette, Alice Martinache, Héloïse Meire</p><p> <strong>Création sonore et régie au plateau</strong>&nbsp;Loïc Le Foll </p><p><strong>Regard extérieur à la mise en scène et regard dramaturgique</strong>&nbsp;Isabelle Jonniaux </p><p><strong>Regard dramaturgique et assistanat&nbsp;</strong>Agathe Meziani </p><p><strong>Travail corps/mouvement</strong>&nbsp;Thierry Duirat </p><p><strong>Création vidéo</strong>&nbsp;Bénédicte Alloing </p><p><strong>Scénographie</strong> et costumes&nbsp;Irma Morin </p><p><strong>Création phot</strong>o&nbsp;Marie Hélène Tercafs </p><p><strong>Administration</strong>&nbsp;Vélrie Khol </p><p>Un spectacle du&nbsp;collectif La Gang </p><p>En coproduction avec&nbsp;le Théatre de Liège Les Tanneurs, la compagnie What's Up, la compagnie Point Zéro, la compagnie La Variation des Constances et DC&amp;J Création Avec le soutien du&nbsp;tax Sheiter du Gouvernement Fédéral de Belgique et de Invest tax Shelter, du théatre des Doms. Le théatre du Papyrus, du LookIN'OUT, de la COCOF et d'Equal Brussels</p>",
+              "duration": "01:38:46",
+              "name": "Pause dans la foret",
+              "poster": "https://dev-onrewind.imgix.net/thumbnails/b3b59f82-0b48-4096-9b77-eb37c0788869/img-13612.jpg",
+              "posterPortrait": null,
+              "urlSlug": null
+            },
+            {
+              "itemType": "video",
+              "itemId": "091d44f1-b7fc-49a4-98d9-eda0339f85ef",
+              "description": null,
+              "fullDescription": null,
+              "technicalDescription": null,
+              "duration": "00:00:38",
+              "name": "La saison des ramen",
+              "poster": "https://dev-onrewind.imgix.net/thumbnails/091d44f1-b7fc-49a4-98d9-eda0339f85ef/img-03293.png",
+              "posterPortrait": null,
+              "urlSlug": null
+            },
+            {
+              "itemType": "video",
+              "itemId": "7aef982c-f413-4e5b-8d4c-163cce5fd978",
+              "description": null,
+              "fullDescription": null,
+              "technicalDescription": null,
+              "duration": "00:00:38",
+              "name": "Poussieres d'etoiles",
+              "poster": "https://dev-onrewind.imgix.net/thumbnails/7aef982c-f413-4e5b-8d4c-163cce5fd978/img-53114.jpg",
+              "posterPortrait": null,
+              "urlSlug": null
+            },
+            {
+              "itemType": "video",
+              "itemId": "c5d47307-504c-4adb-9b34-96ef6b25d909",
+              "description": "Dans les pas d'Emmanuel Demont, le speaker de Geoffroy-Guichard, qui donne de la voix lors de chaque sortie des Verts dans leur Chaudron.",
+              "fullDescription": null,
+              "technicalDescription": null,
+              "duration": "00:00:38",
+              "name": "Le sorcier",
+              "poster": "https://dev-onrewind.imgix.net/thumbnails/c5d47307-504c-4adb-9b34-96ef6b25d909/img-93981.jpg",
+              "posterPortrait": null,
+              "urlSlug": null
+            },
+            {
+              "itemType": "video",
+              "itemId": "fdcf6604-7535-4a14-a703-79a7899da15e",
+              "description": "short description for SEO mainly",
+              "fullDescription": "<p>Hey, c'est la description complète !</p>",
+              "technicalDescription": "<p>Et là c'est la description technique</p>",
+              "duration": "00:00:26",
+              "name": "Zeratul all quotes",
+              "poster": "https://dev-onrewind.imgix.net/thumbnails/fdcf6604-7535-4a14-a703-79a7899da15e/img-07929.png",
+              "posterPortrait": null,
+              "urlSlug": null
+            }
+          ],
+          "numberOfVideos": 5
+        },
+        {
+          "itemType": "video",
+          "itemId": "03480407-3d1d-4a23-bd48-6b41efe6f0c0",
+          "description": null,
+          "fullDescription": null,
+          "technicalDescription": null,
+          "duration": "00:00:26",
+          "name": "Origins Trailer",
+          "poster": "https://dev-onrewind.imgix.net/thumbnails/03480407-3d1d-4a23-bd48-6b41efe6f0c0/img-52653.jpg",
+          "posterPortrait": "https://assets-eu-01.kc-usercontent.com:443/604c2fe8-9bc6-010e-8c13-73c42e66ce87/3a2913a2-94ea-48fb-81ff-f189ab9f722d/beyblade-metal-fusion-a-1-portrait.webp",
+          "urlSlug": null,
+          "tags": [],
+          "categories": [
+            {
+              "id": "06f58529-4b08-4c34-a6de-a42580f714ad",
+              "name": "Category ",
+              "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "description": "See all the video of this category ",
+              "thumbnail": "https://dev-onrewind.imgix.net/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/TestCategory-1686219512434.png",
+              "portraitThumbnail": "https://dev-onrewind.imgix.net/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/TestCategory-1686219515365.png",
+              "createdAt": "2022-12-09T09:54:58.155Z",
+              "updatedAt": "2023-07-05T12:52:37.947Z",
+              "VideoCategory": {
+                "VideoId": "03480407-3d1d-4a23-bd48-6b41efe6f0c0",
+                "CategoryId": "06f58529-4b08-4c34-a6de-a42580f714ad",
+                "createdAt": "2023-03-10T11:21:47.888Z",
+                "updatedAt": "2023-03-10T11:21:47.888Z"
+              }
+            },
+            {
+              "id": "dc5eaa5c-2535-41d3-8f58-4403dd42b7c7",
+              "name": "Trailers",
+              "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "description": "Trailer Product",
+              "thumbnail": null,
+              "portraitThumbnail": null,
+              "createdAt": "2022-11-10T15:00:30.216Z",
+              "updatedAt": "2022-11-10T15:19:56.083Z",
+              "VideoCategory": {
+                "VideoId": "03480407-3d1d-4a23-bd48-6b41efe6f0c0",
+                "CategoryId": "dc5eaa5c-2535-41d3-8f58-4403dd42b7c7",
+                "createdAt": "2022-11-10T15:03:50.410Z",
+                "updatedAt": "2022-11-10T15:03:50.410Z"
+              }
+            }
+          ],
+          "subCategories": []
+        },
+        {
+          "itemType": "video",
+          "itemId": "1c08d7e1-0b44-4874-b10c-a72e55b23c24",
+          "description": "Nulla porttitor accumsan tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.",
+          "fullDescription": "<p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.<br><br>Donec sollicitudin molestie malesuada. Sed porttitor lectus nibh. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.<br><br>Pellentesque in ipsum id orci porta dapibus. Pellentesque in ipsum id orci porta dapibus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat. Pellentesque in ipsum id orci porta dapibus.<br><br>Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Curabitur aliquet quam id dui posuere blandit. Proin eget tortor risus.<br></p>",
+          "technicalDescription": "<p><br></p>",
+          "duration": "00:00:03",
+          "name": "Beyblade reborn 2",
+          "poster": "https://assets-eu-01.kc-usercontent.com:443/604c2fe8-9bc6-010e-8c13-73c42e66ce87/55595200-82d3-41f1-8a22-4c612bd076e7/03_HAND_16-9_01.png",
+          "posterPortrait": "https://assets-eu-01.kc-usercontent.com:443/604c2fe8-9bc6-010e-8c13-73c42e66ce87/e1387eea-ab3c-4a4c-babd-76007e059b89/03_HAND_2-3_01.png",
+          "urlSlug": null,
+          "tags": [
+            {
+              "id": "ddb8905a-6c67-4d29-a5ae-e194d0caa828",
+              "tagType": "search",
+              "name": "TestBugTag3",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-11-21T15:47:48.888Z",
+              "updatedAt": "2022-11-21T15:47:57.563Z",
+              "ItemTag": {
+                "id": "85aba53c-58b2-496a-a48e-b39a4603e9df",
+                "tagId": "ddb8905a-6c67-4d29-a5ae-e194d0caa828",
+                "taggable": "video",
+                "taggableId": "1c08d7e1-0b44-4874-b10c-a72e55b23c24"
+              },
+              "PaymentOffers": []
+            },
+            {
+              "id": "42691b49-ce42-48f5-b435-696ae86d8978",
+              "tagType": "search",
+              "name": "search me",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-03-23T13:29:59.588Z",
+              "updatedAt": "2022-06-17T14:20:17.208Z",
+              "ItemTag": {
+                "id": "7ecb9b49-5e31-404b-a035-9bf5b5b01791",
+                "tagId": "42691b49-ce42-48f5-b435-696ae86d8978",
+                "taggable": "video",
+                "taggableId": "1c08d7e1-0b44-4874-b10c-a72e55b23c24"
+              },
+              "PaymentOffers": []
+            },
+            {
+              "id": "528b3ac5-331e-486d-8ea5-f86fbe257119",
+              "tagType": "search",
+              "name": "TestBugTag2",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-11-21T15:48:51.133Z",
+              "updatedAt": "2022-11-21T15:48:51.133Z",
+              "ItemTag": {
+                "id": "3a9342f0-a7e2-4049-a28a-1e8872de9c62",
+                "tagId": "528b3ac5-331e-486d-8ea5-f86fbe257119",
+                "taggable": "video",
+                "taggableId": "1c08d7e1-0b44-4874-b10c-a72e55b23c24"
+              },
+              "PaymentOffers": []
+            }
+          ],
+          "products": [
+            "6985dd7a-8f26-4e0f-a61a-cd804c5b065f",
+            "6a58977c-6bc5-4dbb-932c-1352be549b9b",
+            "f3086d9b-04dc-4ee9-baf6-454cfdedd0d4"
+          ],
+          "categories": [
+            {
+              "id": "9cc02811-aad0-451a-aade-c78fdf23393a",
+              "name": "Beyblade",
+              "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "description": "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.",
+              "thumbnail": "https://dev-assets.onrewind.tv/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/Beyblade-1654879435642.jpeg",
+              "portraitThumbnail": null,
+              "createdAt": "2022-06-10T16:43:58.968Z",
+              "updatedAt": "2022-07-12T15:50:05.987Z",
+              "VideoCategory": {
+                "VideoId": "1c08d7e1-0b44-4874-b10c-a72e55b23c24",
+                "CategoryId": "9cc02811-aad0-451a-aade-c78fdf23393a",
+                "createdAt": "2022-06-10T16:49:05.687Z",
+                "updatedAt": "2022-06-10T16:49:05.687Z"
+              }
+            }
+          ],
+          "subCategories": [
+            {
+              "id": "85b966d6-33c4-4467-8cb3-746d9f8ab83c",
+              "CategoryId": "9cc02811-aad0-451a-aade-c78fdf23393a",
+              "SubCategoryId": "88cf079f-ec6e-4724-bfef-34bcbcfd5939",
+              "VideoId": "1c08d7e1-0b44-4874-b10c-a72e55b23c24",
+              "createdAt": "2022-06-10T19:10:51.643Z",
+              "updatedAt": "2022-06-10T19:10:51.643Z",
+              "SubCategory": {
+                "id": "88cf079f-ec6e-4724-bfef-34bcbcfd5939",
+                "name": "duels",
+                "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+                "createdAt": "2022-06-10T19:09:58.762Z",
+                "updatedAt": "2022-06-10T19:09:58.762Z"
+              }
+            }
+          ]
+        },
+        {
+          "itemType": "video",
+          "itemId": "a43385d3-460a-4386-a629-381b865e9c42",
+          "description": null,
+          "fullDescription": null,
+          "technicalDescription": null,
+          "duration": "00:00:59",
+          "name": "Origins Trailer - Player",
+          "poster": "https://dev-onrewind.imgix.net/thumbnails/a43385d3-460a-4386-a629-381b865e9c42/img-10575.JPG",
+          "posterPortrait": "https://assets-eu-01.kc-usercontent.com:443/604c2fe8-9bc6-010e-8c13-73c42e66ce87/63318719-8b2f-4e21-86ae-6bbfcd28292f/BEYBLADE_METAL_FUSION_portrait.webp",
+          "urlSlug": null,
+          "tags": [],
+          "categories": [
+            {
+              "id": "dc5eaa5c-2535-41d3-8f58-4403dd42b7c7",
+              "name": "Trailers",
+              "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "description": "Trailer Product",
+              "thumbnail": null,
+              "portraitThumbnail": null,
+              "createdAt": "2022-11-10T15:00:30.216Z",
+              "updatedAt": "2022-11-10T15:19:56.083Z",
+              "VideoCategory": {
+                "VideoId": "a43385d3-460a-4386-a629-381b865e9c42",
+                "CategoryId": "dc5eaa5c-2535-41d3-8f58-4403dd42b7c7",
+                "createdAt": "2022-11-10T15:12:45.436Z",
+                "updatedAt": "2022-11-10T15:12:45.436Z"
+              }
+            },
+            {
+              "id": "06f58529-4b08-4c34-a6de-a42580f714ad",
+              "name": "Category ",
+              "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "description": "See all the video of this category ",
+              "thumbnail": "https://dev-onrewind.imgix.net/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/TestCategory-1686219512434.png",
+              "portraitThumbnail": "https://dev-onrewind.imgix.net/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/TestCategory-1686219515365.png",
+              "createdAt": "2022-12-09T09:54:58.155Z",
+              "updatedAt": "2023-07-05T12:52:37.947Z",
+              "VideoCategory": {
+                "VideoId": "a43385d3-460a-4386-a629-381b865e9c42",
+                "CategoryId": "06f58529-4b08-4c34-a6de-a42580f714ad",
+                "createdAt": "2023-03-10T11:20:26.380Z",
+                "updatedAt": "2023-03-10T11:20:26.380Z"
+              }
+            }
+          ],
+          "subCategories": [
+            {
+              "id": "a7144429-e977-416a-9ba6-9c86fe65f7c2",
+              "CategoryId": "06f58529-4b08-4c34-a6de-a42580f714ad",
+              "SubCategoryId": "3acbb406-d701-4b99-bf04-b3b4c82626b1",
+              "VideoId": "a43385d3-460a-4386-a629-381b865e9c42",
+              "createdAt": "2023-03-10T14:13:16.535Z",
+              "updatedAt": "2023-03-10T14:13:16.535Z",
+              "SubCategory": {
+                "id": "3acbb406-d701-4b99-bf04-b3b4c82626b1",
+                "name": "Real Time Strategy",
+                "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+                "createdAt": "2022-11-10T10:22:59.089Z",
+                "updatedAt": "2022-11-10T10:22:59.089Z"
+              }
+            }
+          ]
+        },
+        {
+          "itemType": "video",
+          "itemId": "7aef982c-f413-4e5b-8d4c-163cce5fd978",
+          "description": null,
+          "fullDescription": null,
+          "technicalDescription": null,
+          "duration": "00:00:38",
+          "name": "Poussieres d'etoiles",
+          "poster": "https://dev-onrewind.imgix.net/thumbnails/7aef982c-f413-4e5b-8d4c-163cce5fd978/img-53114.jpg",
+          "posterPortrait": null,
+          "urlSlug": null,
+          "tags": [
+            {
+              "id": "2b2c2ff2-b4f0-4ab4-b128-61131396567b",
+              "tagType": "category",
+              "name": "Documentaire",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-03-23T13:32:25.799Z",
+              "updatedAt": "2022-03-23T13:32:25.799Z",
+              "ItemTag": {
+                "id": "7dd18766-5817-4040-95a2-faa385cef50a",
+                "tagId": "2b2c2ff2-b4f0-4ab4-b128-61131396567b",
+                "taggable": "video",
+                "taggableId": "7aef982c-f413-4e5b-8d4c-163cce5fd978"
+              },
+              "PaymentOffers": []
+            },
+            {
+              "id": "df55909e-59a1-4903-ad8f-ebcdd6124740",
+              "tagType": "page",
+              "name": "match",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-03-23T13:34:08.184Z",
+              "updatedAt": "2022-03-23T13:34:08.184Z",
+              "ItemTag": {
+                "id": "37ad4fad-87d0-4f89-b707-0276db78ac20",
+                "tagId": "df55909e-59a1-4903-ad8f-ebcdd6124740",
+                "taggable": "video",
+                "taggableId": "7aef982c-f413-4e5b-8d4c-163cce5fd978"
+              },
+              "PaymentOffers": []
+            }
+          ],
+          "categories": [
+            {
+              "id": "81e46fd0-b5a7-4bc1-bad5-3a932e8029b3",
+              "name": "Animal Crossing",
+              "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "description": null,
+              "thumbnail": "https://dev-assets.onrewind.tv/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/Animal Crossing-1654952044492.jpg",
+              "portraitThumbnail": null,
+              "createdAt": "2022-06-11T12:54:04.817Z",
+              "updatedAt": "2022-06-11T12:54:04.817Z",
+              "VideoCategory": {
+                "VideoId": "7aef982c-f413-4e5b-8d4c-163cce5fd978",
+                "CategoryId": "81e46fd0-b5a7-4bc1-bad5-3a932e8029b3",
+                "createdAt": "2022-06-11T12:59:56.345Z",
+                "updatedAt": "2022-06-11T12:59:56.345Z"
+              }
+            }
+          ],
+          "subCategories": []
+        },
+        {
+          "itemType": "video",
+          "itemId": "0f6f670a-d094-4fba-a175-d1f299632264",
+          "description": null,
+          "fullDescription": null,
+          "technicalDescription": null,
+          "duration": "01:38:42",
+          "name": "0f6f670a-d094-4fba-a175-d1f299632264",
+          "poster": "https://dev-onrewind.imgix.net/thumbnails/0f6f670a-d094-4fba-a175-d1f299632264/img-48972.png",
+          "posterPortrait": null,
+          "urlSlug": null,
+          "tags": [
+            {
+              "id": "1f8fe4ce-cb0a-4021-bb36-bbf228e8f9bb",
+              "tagType": "category",
+              "name": "Entraînements",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-03-23T13:32:52.217Z",
+              "updatedAt": "2022-03-23T13:32:52.217Z",
+              "ItemTag": {
+                "id": "1f6c55cf-8e9e-4e2c-a9ed-ad87b091a8e9",
+                "tagId": "1f8fe4ce-cb0a-4021-bb36-bbf228e8f9bb",
+                "taggable": "video",
+                "taggableId": "0f6f670a-d094-4fba-a175-d1f299632264"
+              },
+              "PaymentOffers": []
+            },
+            {
+              "id": "df55909e-59a1-4903-ad8f-ebcdd6124740",
+              "tagType": "page",
+              "name": "match",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-03-23T13:34:08.184Z",
+              "updatedAt": "2022-03-23T13:34:08.184Z",
+              "ItemTag": {
+                "id": "ce9086a5-289f-479e-968b-518ccc0faac3",
+                "tagId": "df55909e-59a1-4903-ad8f-ebcdd6124740",
+                "taggable": "video",
+                "taggableId": "0f6f670a-d094-4fba-a175-d1f299632264"
+              },
+              "PaymentOffers": []
+            }
+          ],
+          "categories": [
+            {
+              "id": "81e46fd0-b5a7-4bc1-bad5-3a932e8029b3",
+              "name": "Animal Crossing",
+              "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "description": null,
+              "thumbnail": "https://dev-assets.onrewind.tv/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/Animal Crossing-1654952044492.jpg",
+              "portraitThumbnail": null,
+              "createdAt": "2022-06-11T12:54:04.817Z",
+              "updatedAt": "2022-06-11T12:54:04.817Z",
+              "VideoCategory": {
+                "VideoId": "0f6f670a-d094-4fba-a175-d1f299632264",
+                "CategoryId": "81e46fd0-b5a7-4bc1-bad5-3a932e8029b3",
+                "createdAt": "2022-06-11T13:16:54.917Z",
+                "updatedAt": "2022-06-11T13:16:54.917Z"
+              }
+            }
+          ],
+          "subCategories": []
+        },
+        {
+          "itemType": "video",
+          "itemId": "b3b59f82-0b48-4096-9b77-eb37c0788869",
+          "description": "Ce dimanche après-midi, au Stade Geoffroy-Guichard, l'AS Saint-Etienne a été corrigée par le Stade Rennais FC (0-5). Le résumé vidéo de cette rencontre de la 17ème journée de Ligue 1 est à retrouver ci-dessus.",
+          "fullDescription": "<p>Lorem Ipsum is simply dummy text of the printing and \ntypesetting industry. Lorem Ipsum has been the industry's standard dummy\n text ever since the 1500s, when an unknown printer took a galley of \ntype and scrambled it to make a type specimen book. It has survived not \nonly five centuries, but also the leap into electronic typesetting, \nremaining essentially unchanged. It was popularised in the 1960s with \nthe release of Letraset sheets containing Lorem Ipsum passages, and more\n recently with desktop publishing software like Aldus PageMaker \nincluding versions of Lorem Ipsum.</p>",
+          "technicalDescription": "<p><strong>Conception/écriture/jeu</strong>&nbsp;Sophie delacollette, Alice Martinache, Héloïse Meire</p><p> <strong>Création sonore et régie au plateau</strong>&nbsp;Loïc Le Foll </p><p><strong>Regard extérieur à la mise en scène et regard dramaturgique</strong>&nbsp;Isabelle Jonniaux </p><p><strong>Regard dramaturgique et assistanat&nbsp;</strong>Agathe Meziani </p><p><strong>Travail corps/mouvement</strong>&nbsp;Thierry Duirat </p><p><strong>Création vidéo</strong>&nbsp;Bénédicte Alloing </p><p><strong>Scénographie</strong> et costumes&nbsp;Irma Morin </p><p><strong>Création phot</strong>o&nbsp;Marie Hélène Tercafs </p><p><strong>Administration</strong>&nbsp;Vélrie Khol </p><p>Un spectacle du&nbsp;collectif La Gang </p><p>En coproduction avec&nbsp;le Théatre de Liège Les Tanneurs, la compagnie What's Up, la compagnie Point Zéro, la compagnie La Variation des Constances et DC&amp;J Création Avec le soutien du&nbsp;tax Sheiter du Gouvernement Fédéral de Belgique et de Invest tax Shelter, du théatre des Doms. Le théatre du Papyrus, du LookIN'OUT, de la COCOF et d'Equal Brussels</p>",
+          "duration": "01:38:46",
+          "name": "Pause dans la foret",
+          "poster": "https://dev-onrewind.imgix.net/thumbnails/b3b59f82-0b48-4096-9b77-eb37c0788869/img-13612.jpg",
+          "posterPortrait": null,
+          "urlSlug": null,
+          "tags": [
+            {
+              "id": "42691b49-ce42-48f5-b435-696ae86d8978",
+              "tagType": "search",
+              "name": "search me",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-03-23T13:29:59.588Z",
+              "updatedAt": "2022-06-17T14:20:17.208Z",
+              "ItemTag": {
+                "id": "e775aed1-8422-424f-a0eb-35f5d4e70ed8",
+                "tagId": "42691b49-ce42-48f5-b435-696ae86d8978",
+                "taggable": "video",
+                "taggableId": "b3b59f82-0b48-4096-9b77-eb37c0788869"
+              },
+              "PaymentOffers": []
+            },
+            {
+              "id": "df55909e-59a1-4903-ad8f-ebcdd6124740",
+              "tagType": "page",
+              "name": "match",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-03-23T13:34:08.184Z",
+              "updatedAt": "2022-03-23T13:34:08.184Z",
+              "ItemTag": {
+                "id": "7c3dacc4-fb8e-42eb-82eb-b5ad3d7d2a82",
+                "tagId": "df55909e-59a1-4903-ad8f-ebcdd6124740",
+                "taggable": "video",
+                "taggableId": "b3b59f82-0b48-4096-9b77-eb37c0788869"
+              },
+              "PaymentOffers": []
+            },
+            {
+              "id": "1f8fe4ce-cb0a-4021-bb36-bbf228e8f9bb",
+              "tagType": "category",
+              "name": "Entraînements",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-03-23T13:32:52.217Z",
+              "updatedAt": "2022-03-23T13:32:52.217Z",
+              "ItemTag": {
+                "id": "3e849fd1-8669-4772-9a68-20f5ef474056",
+                "tagId": "1f8fe4ce-cb0a-4021-bb36-bbf228e8f9bb",
+                "taggable": "video",
+                "taggableId": "b3b59f82-0b48-4096-9b77-eb37c0788869"
+              },
+              "PaymentOffers": []
+            },
+            {
+              "id": "1d4f3913-0229-4e48-9d86-face480a112d",
+              "tagType": "subcategory",
+              "name": "Championnat",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-03-23T13:30:45.327Z",
+              "updatedAt": "2022-03-23T13:30:45.327Z",
+              "ItemTag": {
+                "id": "8f2f2347-f3c7-4e2e-be2a-9d138cb1e1ba",
+                "tagId": "1d4f3913-0229-4e48-9d86-face480a112d",
+                "taggable": "video",
+                "taggableId": "b3b59f82-0b48-4096-9b77-eb37c0788869"
+              },
+              "PaymentOffers": []
+            },
+            {
+              "id": "dfca55f1-3e81-4af1-b036-8178b95d266f",
+              "tagType": "category",
+              "name": "Matchs",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-03-23T13:34:18.744Z",
+              "updatedAt": "2022-03-23T13:34:18.744Z",
+              "ItemTag": {
+                "id": "8ce7e6f1-7db9-43e8-95bb-b8595c986cd6",
+                "tagId": "dfca55f1-3e81-4af1-b036-8178b95d266f",
+                "taggable": "video",
+                "taggableId": "b3b59f82-0b48-4096-9b77-eb37c0788869"
+              },
+              "PaymentOffers": []
+            },
+            {
+              "id": "a832e293-e892-4f83-bc61-37805525b576",
+              "tagType": "category",
+              "name": "trainingalix",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-03-23T13:39:55.439Z",
+              "updatedAt": "2022-03-23T13:39:55.439Z",
+              "ItemTag": {
+                "id": "25185869-fe6b-4dbc-abc1-dc2d6d1fe432",
+                "tagId": "a832e293-e892-4f83-bc61-37805525b576",
+                "taggable": "video",
+                "taggableId": "b3b59f82-0b48-4096-9b77-eb37c0788869"
+              },
+              "PaymentOffers": []
+            },
+            {
+              "id": "7000f17a-8d63-425d-b4ae-74caad7f5780",
+              "tagType": "category",
+              "name": "Test",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-03-23T13:42:12.738Z",
+              "updatedAt": "2022-03-23T13:42:12.738Z",
+              "ItemTag": {
+                "id": "719a76dd-1f22-4ecb-924e-f2c186e52073",
+                "tagId": "7000f17a-8d63-425d-b4ae-74caad7f5780",
+                "taggable": "video",
+                "taggableId": "b3b59f82-0b48-4096-9b77-eb37c0788869"
+              },
+              "PaymentOffers": []
+            }
+          ],
+          "categories": [
+            {
+              "id": "81e46fd0-b5a7-4bc1-bad5-3a932e8029b3",
+              "name": "Animal Crossing",
+              "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "description": null,
+              "thumbnail": "https://dev-assets.onrewind.tv/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/Animal Crossing-1654952044492.jpg",
+              "portraitThumbnail": null,
+              "createdAt": "2022-06-11T12:54:04.817Z",
+              "updatedAt": "2022-06-11T12:54:04.817Z",
+              "VideoCategory": {
+                "VideoId": "b3b59f82-0b48-4096-9b77-eb37c0788869",
+                "CategoryId": "81e46fd0-b5a7-4bc1-bad5-3a932e8029b3",
+                "createdAt": "2022-06-11T13:17:11.712Z",
+                "updatedAt": "2022-06-11T13:17:11.712Z"
+              }
+            }
+          ],
+          "subCategories": []
+        },
+        {
+          "itemType": "video",
+          "itemId": "091d44f1-b7fc-49a4-98d9-eda0339f85ef",
+          "description": null,
+          "fullDescription": null,
+          "technicalDescription": null,
+          "duration": "00:00:38",
+          "name": "La saison des ramen",
+          "poster": "https://dev-onrewind.imgix.net/thumbnails/091d44f1-b7fc-49a4-98d9-eda0339f85ef/img-03293.png",
+          "posterPortrait": null,
+          "urlSlug": null,
+          "tags": [
+            {
+              "id": "1f8fe4ce-cb0a-4021-bb36-bbf228e8f9bb",
+              "tagType": "category",
+              "name": "Entraînements",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-03-23T13:32:52.217Z",
+              "updatedAt": "2022-03-23T13:32:52.217Z",
+              "ItemTag": {
+                "id": "860fe66c-9c16-4642-9336-f4affd744449",
+                "tagId": "1f8fe4ce-cb0a-4021-bb36-bbf228e8f9bb",
+                "taggable": "video",
+                "taggableId": "091d44f1-b7fc-49a4-98d9-eda0339f85ef"
+              },
+              "PaymentOffers": []
+            },
+            {
+              "id": "df55909e-59a1-4903-ad8f-ebcdd6124740",
+              "tagType": "page",
+              "name": "match",
+              "options": {
+                "followable": false
+              },
+              "AccountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "placeholders": null,
+              "createdAt": "2022-03-23T13:34:08.184Z",
+              "updatedAt": "2022-03-23T13:34:08.184Z",
+              "ItemTag": {
+                "id": "d19024d0-1291-4f90-9305-be7722c2f00f",
+                "tagId": "df55909e-59a1-4903-ad8f-ebcdd6124740",
+                "taggable": "video",
+                "taggableId": "091d44f1-b7fc-49a4-98d9-eda0339f85ef"
+              },
+              "PaymentOffers": []
+            }
+          ],
+          "categories": [
+            {
+              "id": "81e46fd0-b5a7-4bc1-bad5-3a932e8029b3",
+              "name": "Animal Crossing",
+              "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+              "description": null,
+              "thumbnail": "https://dev-assets.onrewind.tv/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/Animal Crossing-1654952044492.jpg",
+              "portraitThumbnail": null,
+              "createdAt": "2022-06-11T12:54:04.817Z",
+              "updatedAt": "2022-06-11T12:54:04.817Z",
+              "VideoCategory": {
+                "VideoId": "091d44f1-b7fc-49a4-98d9-eda0339f85ef",
+                "CategoryId": "81e46fd0-b5a7-4bc1-bad5-3a932e8029b3",
+                "createdAt": "2022-06-11T13:16:35.952Z",
+                "updatedAt": "2022-06-11T13:16:35.952Z"
+              }
+            }
+          ],
+          "subCategories": []
+        }
+      ],
+      "itemsDisplayType": "landscape",
+      "showMoreButtonRedirection": null,
+      "mobileShowMoreButtonRedirection": null,
+      "breakpoints": {
+        "perPage": 7,
+        "breakpoints": {
+          "430": {
+            "perPage": 1
+          },
+          "920": {
+            "perPage": 3
+          },
+          "1280": {
+            "perPage": 4
+          },
+          "1920": {
+            "perPage": 5
+          }
+        }
+      }
+    },
+    {
+      "_kenticoCodename": "test_dynamic_grid_v2",
+      "_kenticoId": "f7be9822-e4cf-4b16-aa47-275145c005d8",
+      "_kenticoItemType": "section_dynamic_grid_with_category",
+      "_kenticoLanguage": "fr",
+      "Videos": [
+        {
+          "itemType": "video",
+          "itemId": "615011aa-111f-4ebc-9ddd-8b43160ed030",
+          "description": "Description vidéo",
+          "fullDescription": null,
+          "technicalDescription": null,
+          "duration": "00:03:39",
+          "name": "Dragon Blanc aux yeux bleus",
+          "poster": "https://dev-onrewind.imgix.net/thumbnails/615011aa-111f-4ebc-9ddd-8b43160ed030/img-79804.webp",
+          "posterPortrait": null,
+          "urlSlug": null
+        },
+        {
+          "itemType": "video",
+          "itemId": "c544a056-5920-480b-826e-1f046b35c3aa",
+          "description": "En conférence avec Christophe Galtier",
+          "fullDescription": null,
+          "technicalDescription": null,
+          "duration": "00:07:08",
+          "name": "La mini sorcière",
+          "poster": "https://dev-onrewind.imgix.net/thumbnails/c544a056-5920-480b-826e-1f046b35c3aa/img-19284.jpg",
+          "posterPortrait": null,
+          "urlSlug": null
+        },
+        {
+          "itemType": "video",
+          "itemId": "c450697d-af22-41fe-924b-2b67b87a50b8",
+          "description": null,
+          "fullDescription": null,
+          "technicalDescription": null,
+          "duration": "00:00:10",
+          "name": "Yugi",
+          "poster": "https://dev-onrewind.imgix.net/thumbnails/c450697d-af22-41fe-924b-2b67b87a50b8/img-47524.jpg",
+          "posterPortrait": null,
+          "urlSlug": null
+        },
+        {
+          "itemType": "video",
+          "itemId": "c5d47307-504c-4adb-9b34-96ef6b25d909",
+          "description": "Dans les pas d'Emmanuel Demont, le speaker de Geoffroy-Guichard, qui donne de la voix lors de chaque sortie des Verts dans leur Chaudron.",
+          "fullDescription": null,
+          "technicalDescription": null,
+          "duration": "00:00:38",
+          "name": "Le sorcier",
+          "poster": "https://dev-onrewind.imgix.net/thumbnails/c5d47307-504c-4adb-9b34-96ef6b25d909/img-93981.jpg",
+          "posterPortrait": null,
+          "urlSlug": null
+        }
+      ],
+      "cursor": {
+        "before": null,
+        "after": "WyIyMDIyLTAzLTIzVDE0OjM0OjQzLjA5N1oiLCJjNWQ0NzMwNy01MDRjLTRhZGItOWIzNC05NmVmNmIyNWQ5MDkiXQ=="
+      },
+      "codename": "test_dynamic_grid_v2",
+      "type": "section_dynamic_grid_with_category",
+      "title": "Le roi des jeux !",
+      "withFilters": false,
+      "SubCategories": [],
+      "itemsType": "video",
+      "params": {
+        "title": "Le roi des jeux !",
+        "type": "section_dynamic_grid_with_category",
+        "numberOfItems": 4,
+        "withFilters": false,
+        "itemsDisplayType": "landscape"
+      },
+      "categoryId": "cdd12db3-8b35-429e-aa67-b3a423323814",
+      "id": "cdd12db3-8b35-429e-aa67-b3a423323814",
+      "name": "Yu gi oh",
+      "accountId": "6b636586-52c1-46a9-9a92-46ec0718b272",
+      "description": null,
+      "thumbnail": "https://dev-assets.onrewind.tv/categories-thumbnail/6b636586-52c1-46a9-9a92-46ec0718b272/Yu gi oh-1654950031688.jpg",
+      "portraitThumbnail": null,
+      "createdAt": "2022-06-11T12:20:32.069Z",
+      "updatedAt": "2022-06-11T12:20:32.069Z"
+    }
+  ]
+}

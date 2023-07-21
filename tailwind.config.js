@@ -5,6 +5,7 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
   content: [
+    './node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
     './node_modules/@onrewind/ui/**/*.{js,jsx,ts,tsx}',
     './src/layout/**/*.tsx',
     './src/components/**/*.tsx',
@@ -31,5 +32,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [require('@tailwindcss/typography'), require('flowbite/plugin')],
 };

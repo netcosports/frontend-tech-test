@@ -8,3 +8,7 @@
 :root {
   --secondary: #0062bf;
 }
+
+.rounded-lg {
+  border-radius: 0;
+}

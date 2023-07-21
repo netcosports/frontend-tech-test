@@ -1,3 +1,5 @@
+import { HiInformationCircle } from 'react-icons/hi';
+import { Alert } from 'flowbite-react';
 import { GetStaticPropsContext, InferGetStaticPropsType } from 'next';
 import Cms from 'src/services/Cms';
 
@@ -8,7 +10,10 @@ type IProps = InferGetStaticPropsType<typeof getStaticProps>;
 function Home({ page }: IProps): JSX.Element | null {
   return (
     <>
-      <pre>{JSON.stringify(page, null, 2)}</pre>
+      {/* <pre>{JSON.stringify(page, null, 2)}</pre> */}
+      <Alert color="failure" icon={HiInformationCircle}>
+        à retirer avant de renvoyer le test
+      </Alert>
     </>
   );
 }
