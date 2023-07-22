@@ -15,7 +15,7 @@ class Client implements IClient {
     this.axios = axios.create({
       baseURL: baseUrl,
       headers: {
-        'X-Account-Key': xAccountKey,
+        'X-Account-Key': 'r1x-ei_zq',
         Accept: 'application/json',
         'Content-Type': 'application/json',
         'Accept-Version': 'v6',
