@@ -1,32 +1,67 @@
-'use client';
+import React, { useState } from 'react';
+import Link from 'next/link';
 
-import React from 'react';
-import { Navbar } from 'flowbite-react';
+import { HeaderData } from '$types/HeaderData';
 
-function Header(): JSX.Element {
+interface HeaderProps {
+  data: HeaderData;
+}
+
+function Header({ data }: HeaderProps): JSX.Element {
+  const { logo, menuItems } = data;
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
-    <Navbar fluid className="h-24 bg-emerald-500">
-      <Navbar.Brand href="https://flowbite-react.com">
-        <img
-          alt="HOR_OriginsLogo_WHITE@3x.png"
-          className="h-6 mr-3 sm:h-9"
-          src="https://assets-eu-01.kc-usercontent.com:443/604c2fe8-9bc6-010e-8c13-73c42e66ce87/2e8ef975-6ffa-45f5-a37d-b5fa705b2e6e/HOR_OriginsLogo_WHITE%403x.png"
-        />
-        <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-          Origins Digital
-        </span>
-      </Navbar.Brand>
+    <header className="bg-emerald-500">
+      <nav className="flex items-center justify-between p-4 lg:px-12">
+        <Link href="/" className="flex items-center justify-center name-link">
+          <div className="flex items-center">
+            <img src={logo.url} className="w-20 h-auto lg:w-32 lg:h-auto" alt={logo.name} />
+          </div>
+        </Link>
 
-      <Navbar.Collapse>
-        <Navbar.Link active href="#">
-          <p>Home</p>
-        </Navbar.Link>
-        <Navbar.Link href="#">About</Navbar.Link>
-        <Navbar.Link href="#">Services</Navbar.Link>
-        <Navbar.Link href="#">Pricing</Navbar.Link>
-        <Navbar.Link href="#">Contact</Navbar.Link>
-      </Navbar.Collapse>
-    </Navbar>
+        <div className={`space-x-6 text-white ${isMenuOpen ? 'lg:hidden' : 'lg:flex'}`}>
+          {menuItems?.map((item: any) => (
+            <Link href={`/${item.redirectionTarget}`} key={item._kenticoId}>
+              {item.name}
+            </Link>
+          ))}
+        </div>
+
+        <div className="flex lg:hidden">
+          <button
+            type="button"
+            className="text-gray-600 hover:text-gray-900 focus:outline-none focus:text-gray-900"
+            aria-label="Toggle menu"
+            onClick={toggleMenu}
+          >
+            <svg
+              viewBox="0 0 24 24"
+              className="w-6 h-6 fill-current"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
+
+      {/* Responsive menu */}
+      <div className={`block lg:hidden ${isMenuOpen ? 'flex' : 'hidden'}`}>
+        <div className="flex flex-col p-4 space-y-4">
+          {menuItems?.map((item: any) => (
+            <Link href={`/${item.redirectionTarget}`} key={item._kenticoId}>
+              {item.name}
+            </Link>
+          ))}
+        </div>
+      </div>
+    </header>
   );
 }
+
 export default Header;

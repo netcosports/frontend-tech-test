@@ -1,5 +1,3 @@
-import { HiInformationCircle } from 'react-icons/hi';
-import { Alert } from 'flowbite-react';
 import { GetStaticPropsContext, InferGetStaticPropsType } from 'next';
 import Cms from 'src/services/Cms';
 
@@ -8,14 +6,7 @@ import { DEFAULT_LANGUAGE, KENTICO_HARDCODED_PAGES } from '$utils/constants';
 type IProps = InferGetStaticPropsType<typeof getStaticProps>;
 
 function Home({ page }: IProps): JSX.Element | null {
-  return (
-    <>
-      {/* <pre>{JSON.stringify(page, null, 2)}</pre> */}
-      <Alert color="failure" icon={HiInformationCircle}>
-        à retirer avant de renvoyer le test
-      </Alert>
-    </>
-  );
+  return <>{/* <pre>{JSON.stringify(page, null, 2)}</pre> */}</>;
 }
 
 export const getStaticProps = async ({ locale }: GetStaticPropsContext) => {

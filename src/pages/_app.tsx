@@ -21,7 +21,7 @@ const queryClient = new QueryClient({
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   const webConfig = pageProps.webConfig;
 
-  console.log('webConfig', webConfig);
+  console.log('webConfig', webConfig)
 
   return (
     <>
@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
       <QueryClientProvider client={queryClient}>
         <ViewportProvider>
           <NextNProgress color="var(--secondary)" />
-          <Layout>
+          <Layout webConfig={webConfig}>
             <Component {...pageProps} />
           </Layout>
         </ViewportProvider>

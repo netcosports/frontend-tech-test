@@ -8,7 +8,18 @@ import Footer from './Footer';
 import Header from './Header';
 import Slider from './Slider';
 
-function Layout({ children }: { children: React.ReactNode }): JSX.Element {
+import { FooterData } from '$types/FooterData';
+import { HeaderData } from '$types/HeaderData';
+
+interface LayoutProps {
+  children: React.ReactNode;
+  webConfig: {
+    header: HeaderData;
+    footer: FooterData;
+  };
+}
+
+function Layout({ children, webConfig }: LayoutProps): JSX.Element {
   function sectionSlider(array: any[]): any {
     const kentico = array.find(
       (type: { _kenticoItemType: string }) => type._kenticoItemType === 'section_static_slider',
@@ -59,10 +70,14 @@ function Layout({ children }: { children: React.ReactNode }): JSX.Element {
   const adData = sectionAd(adItemArray);
   // console.log("adItems", adData);
 
+  const headerData = webConfig.header;
+  const footerData = webConfig.footer;
+
   return (
     <>
-      <div className="flex flex-col w-full min-h-screen gap-10 overflow-hidden">
-        <Header />
+      {/* gap-10 */}
+      <div className="flex flex-col w-full min-h-screen overflow-hidden">
+        <Header data={headerData} />
         <Slider data={sliderData} />
         <CarouselList data={carouselData} />
         <Ad data={adData} />
@@ -71,7 +86,7 @@ function Layout({ children }: { children: React.ReactNode }): JSX.Element {
         >
           {children}
         </main>
-        <Footer />
+        <Footer data={footerData} />
       </div>
     </>
   );
