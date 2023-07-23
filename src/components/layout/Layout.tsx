@@ -2,6 +2,7 @@ import { useQuery } from 'react-query';
 import clsx from 'clsx';
 import Cms from 'src/services/Cms';
 
+import Ad from './Ad';
 import CarouselList from './Carousel';
 import Footer from './Footer';
 import Header from './Header';
@@ -23,7 +24,7 @@ function Layout({ children }: { children: React.ReactNode }): JSX.Element {
   const sliderItemArray = sliderItem.components || [];
   const sliderData = sectionSlider(sliderItemArray);
 
-  //console.log('sliderData', sliderData);
+  // console.log('sliderData', sliderData);
 
   function sectionCarousel(array: any[]): any {
     const kentico = array.find(
@@ -42,12 +43,29 @@ function Layout({ children }: { children: React.ReactNode }): JSX.Element {
 
   // console.log('carouselData', carouselData);
 
+  function sectionAd(array: any[]): any {
+    const kentico = array.find(
+      (type: { _kenticoItemType: string }) => type._kenticoItemType === 'section_static_ad',
+    );
+    return kentico;
+  }
+
+  const adItemKey = ['adItem'];
+
+  const { data: adItems } = useQuery(adItemKey, () => Cms.getPageContent('home'));
+
+  const adItem = adItems || [];
+  const adItemArray = adItem.components || [];
+  const adData = sectionAd(adItemArray);
+  // console.log("adItems", adData);
+
   return (
     <>
       <div className="flex flex-col w-full min-h-screen gap-10 overflow-hidden">
         <Header />
         <Slider data={sliderData} />
         <CarouselList data={carouselData} />
+        <Ad data={adData} />
         <main
           className={clsx('mx-auto flex w-full flex-grow flex-col content-spacer overflow-hidden')}
         >

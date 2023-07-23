@@ -13,7 +13,7 @@ interface SliderProps {
 function Slider({ data }: SliderProps): JSX.Element {
   const components = data || [];
   const slideItems = components?.items || [];
-  // console.log(slideItems);
+  // console.log("SLIDER Component", slideItems);
 
   return (
     <div className="sm:h-64 xl:h-80 2xl:h-96" style={{ height: 500 }}>
