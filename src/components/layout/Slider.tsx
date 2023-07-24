@@ -29,10 +29,10 @@ function Slider({ data }: SliderProps): JSX.Element {
   }, [autoplayEnabled]);
 
   return (
-    <div className="sm:h-64 xl:h-80 2xl:h-96" style={{ height: 500 }}>
+    <div className="carousel-container">
       <Carousel slideInterval={5000} ref={carouselRef} autoplay={false}>
         {slideItems?.map((slide: any) => (
-          <div key={slide.itemId} style={{ position: 'relative' }}>
+          <div key={slide.itemId} className="carousel-item">
             <img
               alt={slide.title}
               src={
@@ -41,41 +41,10 @@ function Slider({ data }: SliderProps): JSX.Element {
               className="object-cover w-full h-full"
             />
             {slide?.name && (
-              <div
-                className="blur-container"
-                style={{
-                  position: 'absolute',
-                  top: '65%',
-                  left: '20%',
-                  transform: 'translate(-50%, -50%)',
-                  backdropFilter: 'blur(3px)',
-                  padding: 20,
-                  borderRadius: 10,
-                  backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                  textShadow: '2px 2px 4px rgba(0,0,0,.45)',
-                  textAlign: 'center',
-                }}
-              >
-                <h1
-                  style={{
-                    fontWeight: 'bold',
-                    fontSize: 'xx-large',
-                    color: 'rgb(16 185 129)',
-                  }}
-                >
-                  {slide?.name}
-                </h1>
-                <p
-                  style={{
-                    fontSize: 'large',
-                    color: 'yellow',
-                  }}
-                >
-                  {slide?.description}
-                </p>
-                <button className="px-6 py-2 mt-4 text-sm font-semibold text-white bg-black rounded-md">
-                  play
-                </button>
+              <div className="blur-container">
+                <h1 className="title">{slide?.name}</h1>
+                <p className="description">{slide?.description}</p>
+                <button className="play-button">play</button>
               </div>
             )}
           </div>

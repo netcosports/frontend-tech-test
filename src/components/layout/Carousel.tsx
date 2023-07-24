@@ -3,8 +3,6 @@ import React, { useState } from 'react';
 
 import CarouselCard from './CarouselCard';
 
-import newItems from '$components/newItemsTest';
-
 function CarouselList({ data }): JSX.Element {
   // const [selectedCardIndex, setSelectedCardIndex] = useState(0);
   // console.log(selectedCardIndex);
@@ -17,8 +15,7 @@ function CarouselList({ data }): JSX.Element {
 
   const components = data || [];
   const slideItems = components?.items || [];
-  // slideItems.push(newItems);
-  console.log(slideItems);
+  // console.log(slideItems);
 
   return (
     <div className="px-4 mt-10 space-y-8 md:px-12">

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 import { Items } from '$types/Items';
 interface CarouselCardProps {
@@ -6,10 +7,10 @@ interface CarouselCardProps {
 }
 
 function CarouselCard({ data }: CarouselCardProps): JSX.Element {
-  const { portraitThumbnail, thumbnail, poster, name, description } = data;
+  const { portraitThumbnail, thumbnail, poster, name, description, duration, itemId } = data;
 
   return (
-    <div className="flex flex-col m-auto bg-white rounded parent p-auto">
+    <div className="flex flex-col m-auto bg-white rounded card p-auto">
       <div className="flex pb-10 hide-scroll-bar">
         <div className="flex ml-10 flex-nowrap lg:ml-40 md:ml-20">
           <div className="relative inline-block px-3">
@@ -18,14 +19,17 @@ function CarouselCard({ data }: CarouselCardProps): JSX.Element {
                 src={portraitThumbnail || poster}
                 alt={name}
                 draggable={false}
-                className="object-cover w-full h-full transition-opacity duration-300 group-hover:opacity-50 theIMG"
+                className="object-cover w-full h-full transition-opacity duration-300 group-hover:opacity-50"
               />
-              <div className="absolute inset-0 flex flex-col items-center justify-center p-4 transition-opacity duration-300 opacity-0 DESC group-hover:opacity-100">
+              <div className="absolute inset-0 flex flex-col items-center justify-center p-4 transition-opacity duration-300 desc group-hover:opacity-100">
                 <h2 className="mb-2 text-lg font-semibold text-emerald-700">{name}</h2>
                 <p className="text-sm text-gray-900">{description}</p>
-                <button className="px-6 py-2 mt-4 text-sm font-semibold text-white bg-red-600 rounded-md">
-                  play
-                </button>
+                <div className="duration">{duration}</div>
+                <Link href={`/videos/${itemId}/${name.toLowerCase().split(' ').join('-')}`}>
+                  <button className="px-6 py-2 mt-4 text-sm font-semibold text-white bg-red-600 rounded-md">
+                    play
+                  </button>
+                </Link>
               </div>
               <div className="absolute inset-0 transition-opacity duration-300 bg-white opacity-0 blur-bg group-hover:opacity-100"></div>
             </div>

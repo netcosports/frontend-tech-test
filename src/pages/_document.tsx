@@ -19,6 +19,10 @@ class MyDocument extends Document {
           {/* meta tags */}
           <meta property="og:locale" content={DEFAULT_LOCALE} />
 
+          {/* Swiper css  */}
+          {/* <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+          <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> */}
+
           {/* twitter tags */}
           {/* <meta name="twitter:site" content={TWITTER_SITE} /> */}
           <meta name="twitter:card" content="summary" />

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
 function Ad({ data }): JSX.Element {
@@ -14,7 +15,9 @@ function Ad({ data }): JSX.Element {
               {/* <a href={img.buttonRedirectionTargetType} target="_blank" rel="noopener noreferrer">
                 <img src={img.image.url} alt={img.image.name} />
               </a> */}
-              <img src={img.image.url} alt={img.image.name} />
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src={img.image.url} alt={img.image.name} />
+              </a>
             </div>
           ))}
         </div>

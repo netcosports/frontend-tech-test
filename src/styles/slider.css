@@ -1,0 +1,41 @@
+.carousel-container {
+  height: 500px;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.blur-container {
+  position: absolute;
+  top: 65%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(3px);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: xx-large;
+  color: rgb(16 185 129);
+}
+
+.description {
+  font-size: large;
+  color: yellow;
+}
+
+.play-button {
+  padding: 6px 12px;
+  margin-top: 4px;
+  font-size: small;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+}
