@@ -1,0 +1,13 @@
+.blur-bg {
+  backdrop-filter: blur(8px);
+}
+
+.hide-scroll-bar {
+  -ms-overflow-style: none; /* Pour Internet Explorer et Edge */
+  scrollbar-width: none; /* Pour Firefox */
+}
+
+/* Styles spécifiques pour WebKit (Chrome, Safari) */
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}

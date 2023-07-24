@@ -6,6 +6,7 @@ import NextNProgress from 'nextjs-progressbar';
 
 import { ViewportProvider } from '@onrewind/ui';
 
+import '../styles/carousel.css';
 import '../styles.css';
 
 import Layout from '$components/layout';
@@ -21,7 +22,7 @@ const queryClient = new QueryClient({
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   const webConfig = pageProps.webConfig;
 
-  console.log('webConfig', webConfig)
+  console.log('webConfig', webConfig);
 
   return (
     <>

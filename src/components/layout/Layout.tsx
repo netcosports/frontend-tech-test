@@ -35,12 +35,15 @@ function Layout({ children, webConfig }: LayoutProps): JSX.Element {
   const sliderItemArray = sliderItem.components || [];
   const sliderData = sectionSlider(sliderItemArray);
 
-  // console.log('sliderData', sliderData);
+  console.log('sliderData', sliderData);
 
   function sectionCarousel(array: any[]): any {
     const kentico = array.find(
       (type: { _kenticoItemType: string }) => type._kenticoItemType === 'section_static_carousel',
     );
+   
+    console.log('Array:', array); // Affiche le contenu de l'array pour vérifier les données
+    console.log('Kentico Item:', kentico); // Affiche l'item trouvé par le filtre
     return kentico;
   }
 
@@ -52,7 +55,7 @@ function Layout({ children, webConfig }: LayoutProps): JSX.Element {
   const carouselItemArray = carouselItem.components || [];
   const carouselData = sectionCarousel(carouselItemArray);
 
-  // console.log('carouselData', carouselData);
+ console.log('carouselItemArr', carouselData);
 
   function sectionAd(array: any[]): any {
     const kentico = array.find(

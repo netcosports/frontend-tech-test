@@ -13,7 +13,7 @@ interface SliderProps {
 function Slider({ data }: SliderProps): JSX.Element {
   const components = data || [];
   const slideItems = components?.items || [];
-  console.log('SLIDER Component', slideItems);
+  // console.log('SLIDER Component', slideItems);
 
   const carouselRef = useRef<any>(null);
   const [autoplayEnabled, setAutoplayEnabled] = useState(false);
