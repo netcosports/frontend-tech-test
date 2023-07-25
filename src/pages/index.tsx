@@ -20,7 +20,7 @@ function Home({ page }: IProps): JSX.Element | null {
 
   const sliderItemKey = ['sliderItem'];
 
-  const { data: sliderItems } = useQuery(sliderItemKey, () => Cms.getPageContent('home'));
+  const { data: sliderItems } = useQuery(sliderItemKey, () => Cms.getPageContent('home', {}));
 
   const sliderItem = sliderItems || [];
   const sliderItemArray = sliderItem.components || [];
@@ -39,13 +39,13 @@ function Home({ page }: IProps): JSX.Element | null {
 
   const carouselItemKey = ['carouselItem'];
 
-  const { data: carouselItems } = useQuery(carouselItemKey, () => Cms.getPageContent('home'));
+  const { data: carouselItems } = useQuery(carouselItemKey, () => Cms.getPageContent('home', {}));
 
   const carouselItem = carouselItems || [];
   const carouselItemArray = carouselItem.components || [];
   const carouselData = sectionCarousel(carouselItemArray);
 
-  console.log('carouselItemArr', carouselData);
+  // console.log('carouselItemArr', carouselData);
 
   // ****************** Ad component ****************** //
   function sectionAd(array: any[]): any {
@@ -57,7 +57,7 @@ function Home({ page }: IProps): JSX.Element | null {
 
   const adItemKey = ['adItem'];
 
-  const { data: adItems } = useQuery(adItemKey, () => Cms.getPageContent('home'));
+  const { data: adItems } = useQuery(adItemKey, () => Cms.getPageContent('home', {}));
 
   const adItem = adItems || [];
   const adItemArray = adItem.components || [];

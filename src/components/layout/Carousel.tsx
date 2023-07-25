@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 
 import CarouselCard from './CarouselCard';
@@ -19,12 +18,10 @@ function CarouselList({ data }: any): JSX.Element {
 
   return (
     <div className="px-4 mt-10 space-y-8 md:px-12">
-      <div>
-        <div className="grid grid-cols-4 gap-2">
-          {slideItems?.map((slide: any) => (
-            <CarouselCard key={slide.itemId} data={slide} />
-          ))}
-        </div>
+      <div className="flex carousel-container">
+        {slideItems?.map((slide: any) => (
+          <CarouselCard key={slide.itemId} data={slide} />
+        ))}
       </div>
     </div>
   );

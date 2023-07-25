@@ -30,8 +30,8 @@ function Header({ data }: HeaderProps): JSX.Element {
             <Link
               prefetch={false}
               passHref
-              href={`${item?.redirectionTarget ? `/${item?.redirectionTarget}` : ''}`}
-              // href={item.name === 'Federations' ? '/federations' : `/${item?.redirectionTarget}`}
+              // href={`${item?.redirectionTarget ? `/${item?.redirectionTarget}` : ''}`}
+              href={item.name === 'Federations' ? '/federations' : `/${item?.redirectionTarget}`}
               key={item?._kenticoId}
             >
               <a>{item?.name}</a>
