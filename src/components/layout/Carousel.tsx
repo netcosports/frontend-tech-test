@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 import CarouselCard from './CarouselCard';
 
-function CarouselList({ data }): JSX.Element {
+function CarouselList({ data }: any): JSX.Element {
   // const [selectedCardIndex, setSelectedCardIndex] = useState(0);
   // console.log(selectedCardIndex);
 
@@ -21,7 +21,7 @@ function CarouselList({ data }): JSX.Element {
     <div className="px-4 mt-10 space-y-8 md:px-12">
       <div>
         <div className="grid grid-cols-4 gap-2">
-          {slideItems?.map((slide: any, index: number) => (
+          {slideItems?.map((slide: any) => (
             <CarouselCard key={slide.itemId} data={slide} />
           ))}
         </div>

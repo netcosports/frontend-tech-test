@@ -1,6 +1,6 @@
 type Duration = `${string}:${string}:${string}`;
 
-export interface Items {
+export interface ItemsSlider {
   itemType: string;
   itemId: string;
   description: string;
@@ -10,7 +10,7 @@ export interface Items {
   name: string;
   poster: string;
   posterPortrait: string;
-  urlSlug: null;
+  urlSlug?: null;
   tags: {
     id: string;
     tagType: string;

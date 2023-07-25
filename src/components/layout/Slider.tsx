@@ -4,10 +4,10 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Carousel } from 'flowbite-react';
 
-import { Items } from '$types/Items';
+import { ItemsSlider } from '$types/ItemsSlider';
 
 interface SliderProps {
-  data: Items[];
+  data: ItemsSlider[];
 }
 
 function Slider({ data }: SliderProps): JSX.Element {
@@ -30,7 +30,7 @@ function Slider({ data }: SliderProps): JSX.Element {
 
   return (
     <div className="carousel-container">
-      <Carousel slideInterval={5000} ref={carouselRef} autoplay={false}>
+      <Carousel slideInterval={5000} ref={carouselRef}>
         {slideItems?.map((slide: any) => (
           <div key={slide.itemId} className="carousel-item">
             <img

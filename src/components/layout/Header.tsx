@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import Link from 'next/link';
 
@@ -8,7 +9,7 @@ interface HeaderProps {
 }
 
 function Header({ data }: HeaderProps): JSX.Element {
-  const { logo, menuItems } = data;
+  const { logo, menuItems } = data || {};
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -20,14 +21,20 @@ function Header({ data }: HeaderProps): JSX.Element {
       <nav className="flex items-center justify-between p-4 lg:px-12">
         <Link href="/" className="flex items-center justify-center name-link">
           <div className="flex items-center">
-            <img src={logo.url} className="w-20 h-auto lg:w-32 lg:h-auto" alt={logo.name} />
+            <img src={logo?.url} className="w-20 h-auto lg:w-32 lg:h-auto" alt={logo?.name} />
           </div>
         </Link>
 
         <div className={`space-x-6 text-white ${isMenuOpen ? 'lg:hidden' : 'lg:flex'}`}>
           {menuItems?.map((item: any) => (
-            <Link href={`/${item.redirectionTarget}`} key={item._kenticoId}>
-              {item.name}
+            <Link
+              prefetch={false}
+              passHref
+              href={`${item?.redirectionTarget ? `/${item?.redirectionTarget}` : ''}`}
+              // href={item.name === 'Federations' ? '/federations' : `/${item?.redirectionTarget}`}
+              key={item?._kenticoId}
+            >
+              <a>{item?.name}</a>
             </Link>
           ))}
         </div>
@@ -54,8 +61,13 @@ function Header({ data }: HeaderProps): JSX.Element {
       <div className={`block lg:hidden ${isMenuOpen ? 'flex' : 'hidden'}`}>
         <div className="flex flex-col p-4 space-y-4">
           {menuItems?.map((item: any) => (
-            <Link href={`/${item.redirectionTarget}`} key={item._kenticoId}>
-              {item.name}
+            <Link
+              prefetch={false}
+              passHref
+              href={`${item?.redirectionTarget ? `/${item?.redirectionTarget}` : ''}`}
+              key={item?._kenticoId}
+            >
+              <a>{item?.name}</a>
             </Link>
           ))}
         </div>

@@ -3,8 +3,8 @@ import { useRouter } from 'next/router';
 
 function VideoDetailPage() {
   const router = useRouter();
-  const { slug } = router.query.itemId;
-  console.log('SLUG Vidéo ID', router);
+  const { slug } = router.query;
+  console.log('SLUG Vidéo ID', slug);
 
   const [video, setVideo] = useState(null);
 

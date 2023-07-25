@@ -55,7 +55,7 @@ function Layout({ children, webConfig }: LayoutProps): JSX.Element {
   const carouselItemArray = carouselItem.components || [];
   const carouselData = sectionCarousel(carouselItemArray);
 
-  // console.log('carouselItemArr', carouselData);
+  console.log('carouselItemArr', carouselData);
 
   function sectionAd(array: any[]): any {
     const kentico = array.find(
@@ -73,8 +73,8 @@ function Layout({ children, webConfig }: LayoutProps): JSX.Element {
   const adData = sectionAd(adItemArray);
   // console.log("adItems", adData);
 
-  const headerData = webConfig.header;
-  const footerData = webConfig.footer;
+  const headerData = webConfig?.header;
+  const footerData = webConfig?.footer;
 
   return (
     <>
