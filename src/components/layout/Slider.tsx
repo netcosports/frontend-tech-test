@@ -1,4 +1,3 @@
-// components/Slider.tsx
 import React from 'react';
 import Slider from 'react-slick';
 
@@ -16,7 +15,7 @@ const SimpleSlider: React.FC<SliderProps> = ({ images }) => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    fade: true, // or use `slidesToShow: 1, slidesToScroll: 1` for sliding effect
+    fade: true,
   };
 
   return (

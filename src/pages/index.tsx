@@ -1,4 +1,3 @@
-// pages/index.tsx
 import { GetStaticPropsContext, InferGetStaticPropsType } from 'next';
 import Cms from 'src/services/Cms';
 
@@ -10,9 +9,9 @@ type IProps = InferGetStaticPropsType<typeof getStaticProps>;
 
 function Home({ page }: IProps): JSX.Element | null {
   const images = [
-    'https://via.placeholder.com/800x400?text=Slide+1',
-    'https://via.placeholder.com/800x400?text=Slide+2',
-    'https://via.placeholder.com/800x400?text=Slide+3',
+    'https://example.com/image1.jpg',
+    'https://example.com/image2.jpg',
+    'https://example.com/image3.jpg',
   ];
 
   return (
